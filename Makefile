@@ -1,3 +1,6 @@
+serve:
+	bundle exec jekyll serve --watch
+
 local:
 	bundle exec jekyll build
 
