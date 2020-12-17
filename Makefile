@@ -18,4 +18,4 @@ backup:
 	cp -rv ../doc/* _backups/`date +%Y-%m-%d`/
 
 local-raph:
-	bundle exec jekyll build --config=_config.yml,_config-nginx-raph.yml
+	bundle exec jekyll build --config=_config.yml,_config-nginx-raph.yml --watch

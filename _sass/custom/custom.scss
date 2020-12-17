@@ -136,3 +136,11 @@ $link-color: $cnam-red;
 //lg: $content-width + $nav-width,
 //xl: 1400px
 //);
+
+.centre-important {
+text-align: center;
+color: $cnam-red;
+font-size: 24px;
+/*border:1px solid red;*/
+}
+
