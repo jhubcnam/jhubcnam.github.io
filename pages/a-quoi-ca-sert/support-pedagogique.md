@@ -6,6 +6,7 @@ parent: "À quoi ça sert ?"
 nav_exclude: false
 ---
 
-Une page blanche.
+Illustration graphique, dynamique de concepts pédagogiques difficiles à représenter sur un tableau ou une feuille.
+A COMPLETER.
 
 Ne pas oublier le lien vers la gallerie de carnets.
