@@ -26,7 +26,7 @@ nouvel onglet si vous cliquez sur un nouveau document (carnets, data,
 images...)
 
 
-![Interface Tree](Jhub_tree.png "Interface de travail basique 'Tree' ")
+![Interface Tree](/assets/images/Jhub_tree.png "Interface de travail basique 'Tree' ")
 
 
 Avec cette interface, il est possible de visualiser et d'exécuter simplement les
@@ -43,7 +43,7 @@ et dont tous les documents sont gérés dans un même onglet du navigateur. Cett
 interface possède donc ses propores onglet dans lesquels vous pouvez naviguez
 librement.
 
-![Interface Tree](Jlab_example.png "Interface de travail avancée 'Lab' ")
+![Interface Tree](/assets/images/Jlab_example.png "Interface de travail avancée 'Lab' ")
 
 Avec cette interface, il est possible de visualiser et d'exécuter simplement les
 carnets mais aussi d'interagir avec les fichiers via un terminal, d'éditer des
@@ -54,32 +54,32 @@ hicode, ....).
 
 Le menu latéral permet d'accéder rapidement aux différentes fonctionnalités:
 
-![Gestionnaire de Fichier](Jlab_menulat_1.png) **Gestionnaire de Fichier** :
+![Gestionnaire de Fichier](/assets/images/Jlab_menulat_1.png) **Gestionnaire de Fichier** :
 Affiche le contenu d'un dossier.
 
 
-![Gestionnaire des taches](Jlab_menulat_2.png) **Gestionnaire des taches**:
+![Gestionnaire des taches](/assets/images/Jlab_menulat_2.png) **Gestionnaire des taches**:
 Affiche les travaux en cours (noyaux ouverts)
 
 
 
-![Commandes](Jlab_menulat_3.png) **Commandes**: Liste de commandes possibles et
+![Commandes](/assets/images/Jlab_menulat_3.png) **Commandes**: Liste de commandes possibles et
 accès à la documentation.
 
 
 
-![Gestionnaire de propriétés](Jlab_menulat_4.png) **Gestionnaire de
+![Gestionnaire de propriétés](/assets/images/Jlab_menulat_4.png) **Gestionnaire de
 propriétés**: Gérer les propriétés des cellules d'un carnets (type code ou type
 markdown)
 
 
 
-![Onglets ouverts](Jlab_menulat_5.png) **Onglets ouverts**: liste des tous les
+![Onglets ouverts](/assets/images/Jlab_menulat_5.png) **Onglets ouverts**: liste des tous les
 onglets ouverts.
 
 
 
-![Gestionnaire d'extensions](Jlab_menulat_6.png) **Gestionnaire d'extensions**:
+![Gestionnaire d'extensions](/assets/images/Jlab_menulat_6.png) **Gestionnaire d'extensions**:
 permet d'installer/gérer les nombreuses extensions.
 
 
