@@ -11,8 +11,8 @@ répondre à vos questions, qu'il s'agisse de pédagogie ou de technique.
 
 ## Technique 
 
-Pour des problèmes liés au fonctionnement même des carnets (paquetage python non
-trouvé, instabilités de carnets, etc.), prenez contact avec :
+Pour des problèmes liés au fonctionnement des carnets — paquetage python non
+trouvé, instabilités, etc. — prenez contact (en cliquant sur son nom) avec :
 
 <div class="centre-important"><a href="mailto:rafik.abdesselam@lecnam.net">Rafik Abdesselam</a></div>
 
