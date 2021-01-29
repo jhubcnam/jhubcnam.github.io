@@ -14,4 +14,4 @@ Cela peut être réalisé de diverses manières :
 - par l'insertion de vidéos (exemple de carnet n°3)
 - par l'insertion de sons (exemple de carnet n°4)
 
-Concernant les trois derniers points, voici un lien très utile vers un [tutoriel pour l'insertion de media](https://www.dev2qa.com/how-to-display-rich-output-media-audio-video-image-etc-in-ipython-jupyter-notebook/)(vidéos, sons, images, liens vers des fichiers locaux, données html, ...) à l'intérieur de vos carnets Jupyter. 
+Concernant les trois derniers points, voici un lien très utile vers un [tutoriel pour l'insertion de media](https://www.dev2qa.com/how-to-display-rich-output-media-audio-video-image-etc-in-ipython-jupyter-notebook/) (vidéos, sons, images, liens vers des fichiers locaux, données html, ...) à l'intérieur de vos carnets Jupyter. 

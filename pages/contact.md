@@ -23,12 +23,16 @@ programmation, vous pouvez demander à rejoindre la liste `jhub@cnam.fr` (en
 écrivant à Rafik Abdesselam, cf adresse ci-dessus), ou
 contacter individuellement l'une des personnes suivantes :
 
-* [Chloé Mimeau][chloe]
-* [Simon Marié][simon]
-* [Josselin Noirel][josselin]
-* [Raphaël Fournier-S'niehotta][raphael]
+* [Amélie Danlos (EPN 1)][amelie]
+* [Simon Marié (EPN 4)][simon]
+* [Raphaël Fournier-S'niehotta (EPN 5)][raphael]
+* [Chloé Mimeau (EPN 6)][chloe]
+* [Josselin Noirel (EPN 7)][josselin]
 
-[chloe]: mailto:chloe.mimeau@lecnam.net?subject=[JupyterHub]
+
+[amelie]: mailto:amelie.danlos@lecnam.net?subject=[JupyterHub]
 [simon]: mailto:simon.marie@lecnam.net?subject=[JupyterHub]
-[josselin]: mailto:josselin.noirel@lecnam.net?subject=[JupyterHub]
 [raphael]: mailto:raphael.fourniersniehotta@lecnam.net?subject=[JupyterHub]
+[chloe]: mailto:chloe.mimeau@cnam.fr?subject=[JupyterHub]
+[josselin]: mailto:josselin.noirel@cnam.fr?subject=[JupyterHub]
+
