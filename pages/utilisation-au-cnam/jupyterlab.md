@@ -6,17 +6,17 @@ parent: "Utilisation au CNAM"
 nav_exclude: false
 ---
 
-L'environnement Jupyter permet de travailler dans 2 principales interfaces. La
-première dite "**tree**" permet d'accéder rapidement et simplement aux carnets
-d'un dossier et constitue l'interface d'origine de Jupyter. La seconde
-interface dite "**Lab**" est un environnement plus riche permettant l'utilisation de
-nombreux outils pour interagir avec les carnets, leurs options et leur
-contenus.
+L'environnement Jupyter permet de travailler dans 2 principales interfaces:
+
+- La première dite "**tree**" permet d'accéder rapidement et simplement aux carnets
+d'un dossier et constitue l'interface d'origine de Jupyter.
+- La seconde interface dite "**Lab**" est un environnement plus riche permettant l'utilisation de
+nombreux outils pour interagir avec les carnets, leurs options et leur contenus.
 
 Cette page présente rapidement les deux interfaces.
 
 
-# L'interface de travail basique "Tree"
+## L'interface de travail basique "Tree"
 
 Cette première interface est l'environnement de travail d'origine de Jupyter et
 permet une utilisation simple et efficace des carnets. Par défaut, à l'ouverture
@@ -26,7 +26,7 @@ nouvel onglet si vous cliquez sur un nouveau document (carnets, data,
 images...)
 
 
-![Interface Tree](/assets/images/Jhub_tree.png "Interface de travail basique 'Tree' ")
+![image tree]({{ '/assets/images/Jhub_tree.png' | absolute_url }})
 
 
 Avec cette interface, il est possible de visualiser et d'exécuter simplement les
@@ -35,52 +35,52 @@ d'interagir avec les carnets (sauvegarde, fermeture, exécution par
 cellules...).
 
 
-# L'interface de travail avancée "JupyterLab"
+## L'interface de travail avancée "JupyterLab"
 
 Cette interface est un environnement de travail complet (type IDE) permettant la
 personnalisation de nombreux paramètres (comme le thème ou l'éditeur de texte)
 et dont tous les documents sont gérés dans un même onglet du navigateur. Cette
-interface possède donc ses propores onglet dans lesquels vous pouvez naviguez
+interface possède donc ses propres onglets dans lesquels vous pouvez naviguez
 librement.
 
-![Interface Tree](/assets/images/Jlab_example.png "Interface de travail avancée 'Lab' ")
+![image lab]({{ '/assets/images/Jlab_example.png' | absolute_url }})
 
 Avec cette interface, il est possible de visualiser et d'exécuter simplement les
 carnets mais aussi d'interagir avec les fichiers via un terminal, d'éditer des
-fichiers textes avec l'éditeur de votre choix (vim, sublimetext...), des
+fichiers textes avec l'éditeur de votre choix (vim, sublimetext...), de
 modifier rapidement des fichiers images, d'accéder facilement à la documentation
 ainsi qu'aux nombreuses extensions disponibles (widgets, git, latex, autoplay,
-hicode, ....). 
+hidecode, ....). 
 
 Le menu latéral permet d'accéder rapidement aux différentes fonctionnalités:
 
-![Gestionnaire de Fichier](/assets/images/Jlab_menulat_1.png) **Gestionnaire de Fichier** :
+![image lab]({{ '/assets/images/Jlab_menulat_1.png' | absolute_url }}) **Gestionnaire de Fichier** :
 Affiche le contenu d'un dossier.
 
 
-![Gestionnaire des taches](/assets/images/Jlab_menulat_2.png) **Gestionnaire des taches**:
+![image lab]({{ '/assets/images/Jlab_menulat_2.png' | absolute_url }}) **Gestionnaire des taches**:
 Affiche les travaux en cours (noyaux ouverts)
 
 
 
-![Commandes](/assets/images/Jlab_menulat_3.png) **Commandes**: Liste de commandes possibles et
+![image lab]({{ '/assets/images/Jlab_menulat_3.png' | absolute_url }}) **Commandes**: Liste de commandes possibles et
 accès à la documentation.
 
 
 
-![Gestionnaire de propriétés](/assets/images/Jlab_menulat_4.png) **Gestionnaire de
+![image lab]({{ '/assets/images/Jlab_menulat_4.png' | absolute_url }}) **Gestionnaire de
 propriétés**: Gérer les propriétés des cellules d'un carnets (type code ou type
 markdown)
 
 
 
-![Onglets ouverts](/assets/images/Jlab_menulat_5.png) **Onglets ouverts**: liste des tous les
+![image lab]({{ '/assets/images/Jlab_menulat_5.png' | absolute_url }}) **Onglets ouverts**: liste des tous les
 onglets ouverts.
 
 
 
-![Gestionnaire d'extensions](/assets/images/Jlab_menulat_6.png) **Gestionnaire d'extensions**:
+![image lab]({{ '/assets/images/Jlab_menulat_6.png' | absolute_url }}) **Gestionnaire d'extensions**:
 permet d'installer/gérer les nombreuses extensions.
 
 
-
+Il est possible de bifurquer d'une interface à l'autre dansle menu *Commandes*.
