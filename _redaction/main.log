@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=lualatex 2020.11.19)  26 NOV 2020 22:21
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Arch Linux)  (format=lualatex 2020.11.19)  7 JAN 2021 16:55
  system commands enabled.
 **main.tex
 (./main.tex
@@ -1076,9 +1076,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--92
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12> not available
 (Font)              Font shape `TU/lmss/m/sl' tried instead on input line 103.
 
-Overfull \hbox (233.9903pt too wide) in paragraph at lines 122--124
+Overfull \hbox (227.8103pt too wide) in paragraph at lines 122--124
 \TU/lmtt/m/n/12 formation.cnam.fr/projet-[]6-[]plate-[]forme-[]d-[]analyse-[]des
--[]donnees-[]competences-[]et-[]employabilite-[]par-[]la-[]pratique-[]1204533p?
+-[]donnees-[]competences-[]et-[]employabilite-[]par-[]la-[]pratique-[]1204533.
  []
 
 Package mdframed Info: mdframed inside a box 
@@ -1131,15 +1131,15 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
 )
 
 Here is how much of LuaTeX's memory you used:
- 26086 strings out of 480885
+ 26090 strings out of 480885
  100000,953878 words of node,token memory allocated
  1081 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 24 glue, 3 kern, 1 penalty, 2 glyph, 124 attribute,
  92 glue_spec, 19 attribute_list, 3 write, 1 pdf_action nodes
-   avail lists: 1:4,2:10822,3:830,4:120,5:149,6:49,7:3161,8:144,9:322,10:17,11:2
+   avail lists: 1:4,2:10822,3:830,4:120,5:148,6:49,7:3144,8:131,9:322,10:17,11:2
 06
- 42779 multiletter control sequences out of 65536+600000
- 65 fonts using 6785283 bytes
+ 42783 multiletter control sequences out of 65536+600000
+ 66 fonts using 6856963 bytes
  73i,12n,74p,922b,1185s stack positions out of 5000i,500n,10000p,200000b,100000s
 
 warning  (pdf backend): unreferenced destination with name 'Hfootnote.1'
@@ -1150,11 +1150,12 @@ entype/public/lm/lmsans8-regular.otf></usr/share/texmf-dist/fonts/opentype/publi
 c/lm/lmsans12-oblique.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmmono
 12-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.
 otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans17-regular.otf></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (3 pages, 121885 bytes).
+hare/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf
+-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (3 pages, 123575 bytes).
 
-PDF statistics: 161 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
+PDF statistics: 165 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
  22 named destinations out of 1000 (max. 131072)
  136 words of extra memory for PDF output out of 10000 (max. 100000000)
 

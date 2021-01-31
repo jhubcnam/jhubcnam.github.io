@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Manipulation
+title: Manipulation et analyse de données
 nav_order: 1
 parent: "À quoi ça sert ?"
 nav_exclude: false
@@ -20,13 +20,14 @@ Les carnets Jupyter peuvent être un bon support pour mener à bien ce type de t
     - apprendre à partir des données (machine learning, IA) [lien nb 6]
 
 L'ensemble de ces opérations peuvent être réalisées à l'aide de librairies préconçues et disponibles pour tous les langages présents sur le Jupyter Hub du Cnam.
-Voici par exemple en Python, quelques packages clé à utiliser pour la science des données : 
-- `pandas` pour la manipulation de données
-- `matplotlib` et `seaborn` pour la visualisation des données
-- `ipywidgets` pour l'affichage interactif et dynamique de données
-- `numpy` et `scipy` pour la réalisation de calculs sur les données (algèbre linéaire, optimisation, ...)
-- `statsmodels` pour le calcul de statistiques descriptives, d'estimations et d'inférences pour modèles statistiques
-- `scikit learn` pour le machine learning
-- `tensorflow` pour la création de réseaux de neuronnes
+
+Voici par exemple en **Python**, quelques packages clé à utiliser pour la science des données : 
+- `pandas` : manipulation de données
+- `matplotlib` et `seaborn` : visualisation des données
+- `ipywidgets` : affichage interactif et dynamique de données
+- `numpy` et `scipy` : calculs/opérations sur les données (algèbre linéaire, optimisation, ...)
+- `statsmodels` : calcul de statistiques descriptives, d'estimations et d'inférences pour modèles statistiques
+- `scikit learn` : machine learning
+- `tensorflow` : création de réseaux de neuronnes   
 --> l'utilisation de ces packages est illustrée à travers les carnets Jupyter donnés en démo ci-dessus.
 
