@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Contact et assistance
-nav_order: 9
+title: Assistance
+nav_order: 7
 ---
 
 # Contacts et assistance

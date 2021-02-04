@@ -2,7 +2,7 @@
 layout: default
 title: Support pédagogique
 nav_order: 3
-parent: "À quoi ça sert ?"
+parent: "Utilisation"
 nav_exclude: false
 ---
 

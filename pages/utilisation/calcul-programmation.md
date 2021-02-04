@@ -2,8 +2,8 @@
 layout: default
 title: "Calcul programmation"
 nav_order: 2
-parent: "À quoi ça sert ?"
-nav_exclude: false
+parent: "Utilisation"
+nav_exclude: true
 ---
 
 Une autre page à écrire. Voilà le plan proposé lors des réflexions:

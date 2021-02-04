@@ -2,7 +2,7 @@
 layout: default
 title: Markdown kitchen sink
 nav_order: 99
-nav_exclude: false
+nav_exclude: true
 ---
 
 Une page avec de l'aide, pour trouver comment formater certaines choses. Il
