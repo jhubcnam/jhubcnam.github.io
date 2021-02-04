@@ -5,4 +5,4 @@ nav_exclude: false
 nav_order: 8
 ---
 
-TODO
+![équipe jhub cnam]({{ '/assets/images/team.png' | absolute_url }})
