@@ -6,13 +6,22 @@ parent: "Utilisation"
 nav_exclude: true
 ---
 
-Une autre page à écrire. Voilà le plan proposé lors des réflexions:
-- Calcul
-    * opérations sur des quantités, données, images (utilisation de librairies spécifiques)
-    * post-traitement
+Les carnets jupyter sont très efficaces pour illustrer les éléments théoriques
+vues en cours:
 
-- Programmation
-    * écriture facilitée de programmes, fonctions, scripts via l’aspect langages interprétés et cellules d’exécution de code.
+- Par le Calcul
+    * Application numérique des formules du cours
+    * Définitions de fonctions simple ou complexe
+    * Illustration à l'aide des librairies de visualisation en python (matplotlib,
+      plotly...)
+    * Post-traitement des résultats d'expérience ou de simulation.
+
+- Par la Programmation
+    * Manipulation des éléments de bases et avancés en programmation. (Boucles,
+      conditions,...)
+    * Utilisation des langages de programmation compilé (C++) et interprété (python, octave...)
+    * Conception et écriture facilitées de programmes,  cellules d’exécution de code.
+    * Utilisation de librairies personnelles dans un environnement de cours.
 
 
 Voici 3 exemples de carnets que les auditeurs doivent remplir, exécuter et
