@@ -16,9 +16,12 @@ Tout d'abord, il est possible que cette librairie soit disponible au sein d'une 
 Si aucune image ne comprend l'ensemble des libraires dont vous avez besoin, n'hésitez pas à contacter <a href="mailto:rafik.abdesselam@lecnam.net">Rafik Abdesselam</a> pour qu'il puisse y remédier.
 
 
-- **J'ai un carnet sur mon cloud perso (owncloud ou dropbox...), puis-je l'importer facilement dans le jupyterHub du CNAM ?"**
+- **J'ai un carnet sur mon cloud perso (owncloud ou dropbox...), puis-je l'importer facilement dans le jupyterHub du CNAM ?**
 Oui, il suffit de partager ce fichier depuis votre cloud et de générer un
-liens qui permet d'y accéder (par exemple https://owncloud.com/PierreDupond/gbhdsaef.ipynb). Depuis Jhub dans une cellule de code il faut alors taper: "!wget  https://owncloud.com/PierreDupond/gbhdsaef.ipynb" et votre carnet sera disponible dans votre dossier. Si vous donnez ce lien aux élève, ils pourront également y accéder de la même façon.
+liens qui permet d'y accéder (par exemple https://owncloud.com/PierreDupond/gbhdsaef.ipynb).
+Depuis Jhub dans une cellule de code il faut alors taper et executer:
+"!wget  https://owncloud.com/PierreDupond/gbhdsaef.ipynb"
+et votre carnet sera disponible dans votre dossier. Si vous donnez ce lien aux élèves, ils pourront également y accéder de la même façon.
 
 
 
