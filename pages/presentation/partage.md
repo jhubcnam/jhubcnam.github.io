@@ -2,7 +2,7 @@
 layout: default
 title: "Partage de travaux"
 parent: "Présentation"
-nav_order: 4
+nav_order: 5
 ---
 
 # Comment mettre les notebooks à disposition des élèves ?
