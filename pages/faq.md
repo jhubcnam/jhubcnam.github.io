@@ -1,8 +1,7 @@
 ---
 layout: default
 title: FAQ
-parent: "Utilisation au CNAM"
-nav_order: 4
+nav_order: 6
 ---
 
 # FAQ
