@@ -13,7 +13,7 @@ un ou des noyaux spécifiques et les packages nécessaires.
 
 Il y a actuellement 10 environnements disponibles sur Jupyterhub3.
 
-Deux, l'un tourné vers [python]({{ site.baseurl }}/pages/presentation/environnements/#python), un autre vers [R]({{ site.baseurl }}/pages/presentation/environnements/#r), sont conçus pour répondre à un grand nombre de formations. 
+Deux, l'un généraliste, proposant deux noyaux [python et R]({{ site.baseurl }}/pages/presentation/environnements/#python), un autre orienté [R]({{ site.baseurl }}/pages/presentation/environnements/#r) et ayant pour interfade Rstudio, sont conçus pour répondre à un grand nombre de formations. 
 
 Des environnements  spécifiques sont bâtis pour répondre aux nécessités de certaines formations :
 biotechnologie, sciences de la mer ([Intechmer]({{ site.baseurl }}/pages/presentation/environnements/#intechmer)), spatial, reconnaissance des formes (informatique).
@@ -21,7 +21,7 @@ biotechnologie, sciences de la mer ([Intechmer]({{ site.baseurl }}/pages/present
 Des noyaux octave, sql, et c++ complètent l'offre aux enseignants.
 
 Pour tester ces environnements, veuillez adressez un courriel à <br/>
-[Rafik Abdesselam][rafik]<br/>
+l'[administrateur des plate-formes][rafik]<br/>
 
 [rafik]: mailto:rafik.abdesselam@cnam.fr?subject=[JupyterHub]
 
