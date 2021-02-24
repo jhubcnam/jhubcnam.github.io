@@ -16,18 +16,17 @@ Les carnets Jupyter peuvent être un bon support pour mener à bien ce type de t
     - utiliser l’interactivité et la manipulation dynamique des données à l’intérieur des carnets [lien nb 4]
 
 * Quelles possibilités pour **transformer les données en information** dans un carnet ? :
-    - analyser des données à travers des méthodes statistiques, d'algèbre linéaire, d'optimisation, ... [lien nb 5 - A FAIRE]
-    - apprendre à partir des données (machine learning, IA) [lien nb 6]
+    - analyser des données via la statistique, l'algèbre linéaire, l'optimisation, l'analyse de Fourier ...
+    - apprendre à partir des données (machine learning, IA) [lien nb 5]
 
 L'ensemble de ces opérations peuvent être réalisées à l'aide de librairies préconçues et disponibles pour tous les langages présents sur le Jupyter Hub du Cnam.
 
-Voici par exemple en **Python**, quelques packages clé à utiliser pour la science des données : 
+Voici par exemple en **Python**, quelques packetages clé à utiliser pour la science des données : 
 - `pandas` : manipulation de données
 - `matplotlib` et `seaborn` : visualisation des données
 - `ipywidgets` : affichage interactif et dynamique de données
 - `numpy` et `scipy` : calculs/opérations sur les données (algèbre linéaire, optimisation, ...)
 - `statsmodels` : calcul de statistiques descriptives, d'estimations et d'inférences pour modèles statistiques
 - `scikit learn` : machine learning
-- `tensorflow` : création de réseaux de neuronnes   
---> l'utilisation de ces packages est illustrée à travers les carnets Jupyter donnés en démo ci-dessus.
-
+- `tensorflow` : création de réseaux de neurones   
+➔ l'utilisation de ces packetages est illustrée à travers les carnets Jupyter donnés en démo ci-dessus.
