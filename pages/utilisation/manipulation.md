@@ -2,8 +2,8 @@
 layout: default
 title: Manipulation et analyse de données
 nav_order: 1
-parent: "À quoi ça sert ?"
-nav_exclude: false
+parent: "Utilisation"
+nav_exclude: true
 ---
 
 

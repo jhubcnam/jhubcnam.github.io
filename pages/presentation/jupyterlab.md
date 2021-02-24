@@ -2,9 +2,11 @@
 layout: default
 title: JupyterLab
 nav_order: 2
-parent: "Utilisation au CNAM"
+parent: "Présentation"
 nav_exclude: false
 ---
+
+# Interfaces 
 
 L'environnement Jupyter permet de travailler dans 2 principales interfaces:
 

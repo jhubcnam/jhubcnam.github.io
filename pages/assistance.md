@@ -1,20 +1,13 @@
 ---
 layout: default
-title: Contact et assistance
-nav_order: 9
+title: Assistance
+nav_order: 7
 ---
 
 # Contacts et assistance
 
 L'équipe qui organise l'utilisation de JupyterHub au CNAM peut vous aider,
-répondre à vos questions, qu'il s'agisse de pédagogie ou de technique.
-
-## Technique 
-
-Pour des problèmes liés au fonctionnement des carnets — paquetage python non
-trouvé, instabilités, etc. — prenez contact (en cliquant sur son nom) avec :
-
-<div class="centre-important"><a href="mailto:rafik.abdesselam@lecnam.net">Rafik Abdesselam</a></div>
+répondre à vos questions, qu'il s'agisse de pédagogie ou d'adminsitration des plateformes.
 
 ## Pédagogie, programmation
 
@@ -36,3 +29,15 @@ contacter individuellement l'une des personnes suivantes :
 [chloe]: mailto:chloe.mimeau@cnam.fr?subject=[JupyterHub]
 [josselin]: mailto:josselin.noirel@cnam.fr?subject=[JupyterHub]
 
+## Administration des plateformes
+
+Si vous souhaitez installer des packages supplémentaires, disposer d'un environnement spécifique
+(noyau, interface, composants) à vos enseignements, contactez :
+
+* [Rafik Abdesselam][rafik]<br/>
+Ingénieur systèmes à la Direction des Systèmes d'Information<br/>
+Pilote du projet JupyterHub au Conservatoire National des Arts et Métiers<br/>
+Administrateur des plateformes JupyterHub : évolution, maintenance, monitoring.<br/>
+
+
+[rafik]: mailto:rafik.abdesselam@cnam.fr?subject=[JupyterHub]
