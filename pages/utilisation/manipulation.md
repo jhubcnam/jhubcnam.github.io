@@ -19,11 +19,12 @@ Les carnets Jupyter peuvent être un bon support pour mener à bien ce type de t
     - analyser des données via la statistique, l'algèbre linéaire, l'optimisation, l'analyse de Fourier ...
     - apprendre à partir des données (machine learning, IA) [lien nb 5]
 
-L'ensemble de ces opérations peuvent être réalisées à l'aide de librairies préconçues et disponibles pour tous les langages présents sur le Jupyter Hub du Cnam.
+Pour d'autres exemples de notebooks incluant des applications très concrètes sur des jeux de données, voir [ici](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks).  
+L'ensemble des opérations listées ci-dessus peuvent être réalisées à l'aide de librairies préconçues et disponibles pour tous les langages présents sur le Jupyter Hub du Cnam.
 
 Voici par exemple en **Python**, quelques packetages clé à utiliser pour la science des données : 
 - `pandas` : manipulation de données
-- `matplotlib` et `seaborn` : visualisation des données
+- `matplotlib`, `plotly` et `seaborn` : visualisation des données
 - `ipywidgets` : affichage interactif et dynamique de données
 - `numpy` et `scipy` : calculs/opérations sur les données (algèbre linéaire, optimisation, ...)
 - `statsmodels` : calcul de statistiques descriptives, d'estimations et d'inférences pour modèles statistiques

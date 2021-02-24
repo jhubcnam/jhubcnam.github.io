@@ -16,4 +16,4 @@ nav_order: 9
 * L'[anti-sèche Markdown](https://www.markdownguide.org/cheat-sheet)
 * Un [générateur de tableaux en Markdown](https://www.tablesgenerator.com/markdown_tables)
 * [Introduction à Jupyter](https://www.tutorialspoint.com/jupyter/jupyter_useful_resources.htm)
-* TODO: anti-sèche maths (à produire soi-même)
+* L'[anti-sèche Latex](https://fr.wikipedia.org/wiki/Aide:Formules_TeX) pour écrire des maths dans une cellule Markdown d'un carnet Jupyter

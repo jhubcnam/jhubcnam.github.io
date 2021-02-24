@@ -7,14 +7,13 @@ nav_order: 7
 # Contacts et assistance
 
 L'équipe qui organise l'utilisation de JupyterHub au CNAM peut vous aider,
-répondre à vos questions, qu'il s'agisse de pédagogie ou d'adminsitration des plateformes.
+répondre à vos questions, qu'il s'agisse de pédagogie ou d'administration des plateformes.
 
 ## Pédagogie, programmation
 
 Pour des échanges autour des pratiques pédagogiques ou des questions de
 programmation, vous pouvez demander à rejoindre la liste `jhub@cnam.fr` (en
-écrivant à Rafik Abdesselam, cf adresse ci-dessus), ou
-contacter individuellement l'une des personnes suivantes :
+écrivant à [Rafik Abdesselam][rafik]), ou contacter individuellement l'une des personnes suivantes :
 
 * [Amélie Danlos (EPN 1)][amelie]
 * [Simon Marié (EPN 4)][simon]
@@ -31,7 +30,7 @@ contacter individuellement l'une des personnes suivantes :
 
 ## Administration des plateformes
 
-Si vous souhaitez installer des packages supplémentaires, disposer d'un environnement spécifique
+Si vous souhaitez installer des packetages supplémentaires, disposer d'un environnement spécifique
 (noyau, interface, composants) à vos enseignements, contactez :
 
 * [Rafik Abdesselam][rafik]<br/>

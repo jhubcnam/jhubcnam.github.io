@@ -6,21 +6,20 @@ parent: "Utilisation"
 nav_exclude: true
 ---
 
-Les carnets jupyter sont très efficaces pour illustrer les éléments théoriques
-vues en cours:
+Les carnets Jupyter sont très efficaces pour illustrer les éléments théoriques vus en cours :
 
-- Par le Calcul
+- Par le **Calcul**
     * Application numérique des formules du cours
-    * Définitions de fonctions simple ou complexe
-    * Illustration à l'aide des librairies de visualisation en python (matplotlib,
-      plotly...)
+    * Définitions de fonctions simples ou complexes
+    * Illustration à l'aide des librairies de visualisation (ex : matplotlib,
+      plotly en python)
     * Post-traitement des résultats d'expérience ou de simulation.
 
-- Par la Programmation
-    * Manipulation des éléments de bases et avancés en programmation. (Boucles,
-      conditions,...)
-    * Utilisation des langages de programmation compilé (C++) et interprété (python, octave...)
-    * Conception et écriture facilitées de programmes,  cellules d’exécution de code.
+- Par la **Programmation**
+    * Manipulation des éléments de bases et avancés en programmation (boucles,
+      conditions, ...)
+    * Utilisation des langages de programmation compilés (C++) et interprétés (python, octave...)
+    * Conception et écriture facilitées de programmes, cellules d’exécution de code.
     * Utilisation de librairies personnelles dans un environnement de cours.
 
 

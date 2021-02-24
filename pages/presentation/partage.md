@@ -14,10 +14,10 @@ Il existe pour cela plusieurs possibilités :
     * Dans votre répertoire `/MonDossier` sous Jupyter, cliquer sur l'onglet "Upload" (en haut à droite) et choisir le fichier .ipynb que vous venez de télécharger localement sur votre ordinateur  
     * Cliquer enfin sur l'onglet bleu "téléverser" pour finir le téléchargement 
     * Le fichier notebook (.ipynb) est maintenant disponible, lisible, modifiable et exécutable dans votre environnement Jupyter
-- possibilité n°2 : via Github (DETAILLER)
-- possibilité n°3 : via lien externe / wget. Si vous disposez d'un serveur
+- possibilité n°2 : via lien externe / wget. Si vous disposez d'un serveur
   personnel ou d'un cloud (dropbox, owncloud...) vous pouvez générer un lien
   html qui pointe sur votre ressource (carnet ou donnée....). Il suffit alors de
   mettre ce lien à disposition des auditeurs (par exemple sur le moodle) pour
-  qu'ils puissent le recopier et l'executer sur le serveur en ajoutant !wget devant l'adresse html. Exemple: !wget https://liens/vers/votre/carnet.ipynb 
+  qu'ils puissent le recopier et l'executer sur le serveur en ajoutant !wget devant l'adresse html. Exemple: !wget https://liens/vers/votre/carnet.ipynb   
+- possibilité n°3 : via Github (DETAILLER)
 
