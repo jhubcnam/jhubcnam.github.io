@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Support pédagogique
 nav_order: 3
 parent: "Utilisation"
@@ -9,7 +9,7 @@ nav_exclude: false
 Les carnets Jupyter permettent d'**illustrer de façon interactive, dynamique et aisée des notions pédagogiques** difficiles à représenter sur une feuille, un tableau ou une diapositive.
 
 Cela peut être réalisé de diverses manières :   
-- par le tracé de figures/grahiques créés par du code écrit et exécuté directement dans les cellules du carnet (exemple de carnet n°1)
+- par le tracé de figures/grahiques créés par du code écrit et exécuté directement dans les cellules du carnet ([Carnet exemple](http://microlearning.fournier-sniehotta.fr/testfiltresvoila/#example-gradient1))
 - par l'insertion d'images ou de GIF (exemple de carnet n°2)
 - par l'insertion de vidéos (exemple de carnet n°3)
 - par l'insertion de sons (exemple de carnet n°4)

@@ -8,23 +8,29 @@ nav_exclude: false
 
 ### Les environnements
 
-Un environnement est une instance JupyterHub façonnée avec les éléments nécessaires à vos enseignements : 
-un ou des noyaux spécifiques et les packages nécessaires.
+Un environnement est une instance JupyterHub façonnée avec les éléments
+nécessaires à vos enseignements : un ou plusieurs noyaux spécifiques et les
+packages nécessaires. JupyterHub3 propose de nombreux environnements,
+généralistes ou spécifiques.
 
-Il y a actuellement 10 environnements disponibles sur Jupyterhub3.
+Deux environnements sont conçus pour répondre à un grand nombre de formations : 
+- le premier, *python*, est généraliste et propose deux noyaux [python et R]({{
+'pages/presentation/environnements#python' | absolute_url}})
+- le second est orienté [R]({{ 'pages/presentation/environnements#r' | absolute_url }}), avec pour
+interface Rstudio. 
 
-Deux, l'un généraliste, proposant deux noyaux [python et R]({{ site.baseurl }}/pages/presentation/environnements/#python), un autre orienté [R]({{ site.baseurl }}/pages/presentation/environnements/#r) et ayant pour interfade Rstudio, sont conçus pour répondre à un grand nombre de formations. 
+Des environnements spécifiques sont bâtis pour répondre aux nécessités de
+certaines formations : biotechnologie, sciences de la mer ([Intechmer]({{
+'pages/presentation/environnements#intechmer' | absolute_url }})), spatial,
+reconnaissance des formes (informatique). Des noyaux octave, sql, et c++
+complètent l'offre aux enseignants.
 
-Des environnements  spécifiques sont bâtis pour répondre aux nécessités de certaines formations :
-biotechnologie, sciences de la mer ([Intechmer]({{ site.baseurl }}/pages/presentation/environnements/#intechmer)), spatial, reconnaissance des formes (informatique).
-
-Des noyaux octave, sql, et c++ complètent l'offre aux enseignants.
+Tous les environnements sont détaillés [**ici**]({{ 'pages/utilisation/environnements' | absolute_url }}).
 
 Pour tester ces environnements, veuillez adressez un courriel à <br/>
 l'[administrateur des plate-formes][rafik]<br/>
 
 [rafik]: mailto:rafik.abdesselam@cnam.fr?subject=[JupyterHub]
-
 
 
 ### Ajout d'une activité JupyterHub

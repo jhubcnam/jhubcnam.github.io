@@ -1,6 +1,6 @@
 ---
-layout: default
-title: "Calcul programmation"
+layout: page
+title: "Calcul et programmation"
 nav_order: 2
 parent: "Utilisation"
 nav_exclude: true
@@ -24,11 +24,13 @@ Les carnets Jupyter sont très efficaces pour illustrer les éléments théoriqu
 
 
 Voici 3 exemples de carnets que les auditeurs doivent remplir, exécuter et
-renvoyer à l'enseignant pour illustrer et appliquer les éléments d'un cour:
+renvoyer à l'enseignant pour illustrer et appliquer les éléments d'un cours :
 
 1. [Calcul d'une rentrée atmosphérique](https://hpp.education/Lessons/MecaSpace/Files/MecaSpace_Rentree.html)
 2. [Programmation d'un algorithme simple](https://hpp.education/Lessons/Python/Files/TP1-Langton.html)
 3. [Conception d'un profil d'aile](https://hpp.education/Lessons/Aerodynamique/Files/TN2_Profils.html)
 
-Vous pouvez également consulter la galerie interactive des carnets du CNAM:
-[https://carnets.cnam.fr](https://carnets.cnam.fr)
+Vous pouvez également consulter la galerie interactive des carnets du CNAM :
+<div class="centre-important">
+<a href="https://carnets.cnam.fr">https://carnets.cnam.fr</a>
+</div>
