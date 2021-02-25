@@ -41,11 +41,12 @@ Une fois le carnet créé et ouvert, voici l'interface qui se présente à vous 
 ## Du code dans un carnet
 
 L'exemple ci-dessous montre un carnet très simple dans lequel 2 cellules de code en python ont été éditées.  
-La première (`Entrée [1]`) affiche la somme des variables a et b contenant respectivement les valeurs 25 et 75. Le résultat apparaît en dessous de la cellule, au niveau de la mention rouge `Out [1]` signifiant qu'il s'agit de la sortie correspond à l'exécution de la cellule `Entrée [1]`.  
-La deuxième cellule (`Entrée [2]`) contient une instruction python visant à afficher une chaîne de caractère à l'écran (`print`).  Cette chaîne de caractères est affichée en dessous de la cellule `Entrée [2]`.  
 
 ![image nbCode]({{ '/assets/images/carnet_cellules_code.png' | absolute_url }})
  
+La première (`Entrée [1]`) affiche la somme des variables a et b contenant respectivement les valeurs 25 et 75. Le résultat apparaît en dessous de la cellule, au niveau de la mention rouge `Out [1]` signifiant qu'il s'agit de la sortie correspond à l'exécution de la cellule `Entrée [1]`.  
+La deuxième cellule (`Entrée [2]`) contient une instruction python visant à afficher une chaîne de caractère à l'écran (`print`).  Cette chaîne de caractères est affichée en dessous de la cellule `Entrée [2]`.  
+
 ## Du texte, des tableaux et des formules dans un carnet via le Markdown
 
 Une cellule ne contient pas nécessairement du code, elle peut aussi contenir du texte simple, des listes, des titres, des tableaux ou encore des formules mathématiques en LaTeX. Pour cela il suffit de sélectionner, pour la cellule active, le mode `Markdown` dans le menu déroulant se trouvant au centre du menu. Voici ci-dessous un exemple de divers contenus en Markdown dans un carnet. Pour plus de détails voir :  

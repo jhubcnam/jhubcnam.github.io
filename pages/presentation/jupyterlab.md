@@ -27,9 +27,7 @@ L'interface est alors majoritairement pilotée par le navigateur qui ouvrira un
 nouvel onglet si vous cliquez sur un nouveau document (carnets, data,
 images...)
 
-
-![image tree]({{ '/assets/images/Jhub_tree.png' | absolute_url }})
-
+![image tree]({{ '/assets/images/dashboard.png' | absolute_url }})
 
 Avec cette interface, il est possible de visualiser et d'exécuter simplement les
 carnets. Le menu horizontal permet de sélectionner certaines options afin
