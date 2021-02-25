@@ -1,13 +1,10 @@
 ---
-layout: default
+layout: page
 title: Environnements
 nav_order: 4
 parent: "Présentation"
 nav_exclude: false
 ---
-
-## Environnements disponibles
-{: .no_toc }
 
 Voici la liste des environnements disponibles dans le JupyterHub du CNAM :
 

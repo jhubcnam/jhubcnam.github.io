@@ -6,6 +6,8 @@ parent: "Présentation"
 nav_exclude: false
 ---
 
+# Lien entre JupyterHub et Moodle 
+
 ### Les environnements
 
 Un environnement est une instance JupyterHub façonnée avec les éléments
