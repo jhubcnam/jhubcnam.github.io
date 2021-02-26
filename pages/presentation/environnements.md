@@ -6,22 +6,25 @@ parent: "Présentation"
 nav_exclude: false
 ---
 
-Voici la liste des environnements disponibles dans le JupyterHub du CNAM :
+Voici la liste de tous les environnements disponibles dans le JupyterHub du CNAM (accessibles [via Moodle](https://mediaserver.cnam.fr/permalink/v12618e559fcdonzzxq7/iframe/" allowfullscreen="allowfullscreen)):
 
 1. TOC
 {:toc .toc-3columns}
 
-## JupyterHub
-## Mediaserver
-## cnam1
+## Mediaserver   
+Accès direct à votre espace "Mediaserver" du Cnam (pour le stockage et l'édition de vos média vidéos).
+## cnam1  
+Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}). Langages disponibles pour les notebooks : Python 3 et R. 
 ## xeus-sql
-## rstudio
+## rstudio   
+Environnement Rstudio. 
 ## cpp1
 ## octave
 ## deeplearning
 ## bio
 ## intechmer
-## cnam1tree
+## cnam1tree   
+Environnement [Jupyter "Tree"]({{ 'pages/presentation/jupyterlab' | absolute_url }}). Langages disponibles pour les notebooks : Python 3 et R. 
 ## bioinfo
 ## cnam11
 ## cnamexp

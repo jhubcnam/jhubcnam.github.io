@@ -27,7 +27,7 @@ certaines formations : biotechnologie, sciences de la mer ([Intechmer]({{
 reconnaissance des formes (informatique). Des noyaux octave, sql, et c++
 complètent l'offre aux enseignants.
 
-Tous les environnements sont détaillés [**ici**]({{ 'pages/utilisation/environnements' | absolute_url }}).
+Tous les environnements sont détaillés [**ici**]({{ 'pages/presentation/environnements' | absolute_url }}).
 
 Pour tester ces environnements, veuillez adressez un courriel à <br/>
 l'[administrateur des plate-formes][rafik]<br/>

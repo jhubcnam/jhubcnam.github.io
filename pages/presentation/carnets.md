@@ -31,7 +31,7 @@ Une fois le carnet créé et ouvert, voici l'interface qui se présente à vous 
 
 **Gestion des cellules et de leur contenu :**  
 6 : la cellule active est encadrée en bleu (les crochets à côté de `Entrée` sont vides quand la cellule n'a encore jamais été exécutée). Par défaut la cellule est en mode `Code` (cf menu déroulant au centre), ce qui signifie que son contenu sera interprété comme étant du code Python (puisque le carnet de cet exemple est un carnet Python)  
-7 : ajouter une nouvelle cellule (elle apparaît en bas du carnet)  
+7 : ajouter une nouvelle cellule (elle apparaît en-dessous de la cellule active)  
 8 : couper/copier/coller une cellule <br>
 9 : décaler la cellule active d'un cran vers le haut (flèche montante) ou vers le bas (flèche descendante)  
 10 : exécuter le contenu de la cellule active   
