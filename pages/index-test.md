@@ -2,12 +2,32 @@
 layout: default
 title: Markdown kitchen sink
 nav_order: 99
-nav_exclude: false
+nav_exclude: true
 ---
 
 Une page avec de l'aide, pour trouver comment formater certaines choses. Il
 suffira de basculer `nav_exclude:` à `true` dans l'en-tête, quand on n'en aura
 plus besoin (quitte à s'en tenir à l'url complète connue de nous seuls).
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">sklearn.cluster</span> <span class="kn">import</span> <span class="n">KMeans</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
 
 ---
 
