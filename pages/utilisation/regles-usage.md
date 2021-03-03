@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Règles d'usage à respecter
 nav_order: 4
 parent: "Utilisation"
@@ -12,7 +12,7 @@ Chaque utilisateur du JupyterHub au Cnam se doit de respecter les quelques règl
 
 	À l'intérieur de `/MonDossier` il est possible (et même fortement conseillé) de créer des sous-répertoires. 
 
-* **Shutdown des carnets** : lorsqu'on ne travaille plus sur un carnet, il faut libérer les ressources de calcul qui lui étaient attribuées. Pour cela :
+* **Fermeture (Shutdown) des carnets** : lorsqu'on ne travaille plus sur un carnet, il faut libérer les ressources de calcul qui lui étaient attribuées. **Attention, seulement fermer l'onglet ne suffit pas**. Voici les procédures :
 	* Dans Jupyter "Tree" (interface basique) : fermer la fenêtre navigateur de votre carnet et libérer les ressources de calcul en cliquant sur `Shutdown` (cf image ci-dessous, option 1). Si plusieurs carnets sont actifs (icônes vertes), il est possible de les arrêter de façon groupée en allant sur l'onglet `Running` puis en cliquant sur le bouton `Arrêter` pour tous les carnets que l'on souhaite stopper (cf image ci-dessous, option 2)
 	* Dans Jupyter "Lab" : le shutdown s'effectue en cliquant sur l'icône grisée "stop", dans la barre de menu latérale à gauche, et en sélectionnant `shut down` (cf image ci-dessous).
 
