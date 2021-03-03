@@ -14,7 +14,40 @@ Voici la liste de tous les environnements disponibles dans le JupyterHub du CNAM
 ## Mediaserver   
 Accès direct à votre espace "Mediaserver" du Cnam (pour le stockage et l'édition de vos média vidéos).
 ## cnam1  
-Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}). Langages disponibles pour les notebooks : Python 3 et R. 
+Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}). Langages disponibles pour les notebooks : 
+
+python version 3.6.11  
+R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
+
+| Packages python | Packages R | 
+| autograd | tidyverse |
+| bokeh | reticulate |
+| cython | mosaicdata
+| dask | data.table |
+| dill | matrixStats |
+| ipygany |  |
+| ipyleaflet |  |
+| ipympl |  |
+| ipywidgets | 
+| matplotlib |  |
+| mayavi |  |
+| mpmath |  |
+| nbresuse |  |
+| networkx |  |
+| numba |  |
+| numpy |  |
+| osmnx |  |
+| pandas |  |
+| partd |  |
+| plotly |  |
+| psutil |  |
+| pyqt |  |
+| qtconsole |  |
+| seaborn |  |
+| sympy |  |
+| xlrd |  |
+| xlwt |  |
+
 ## xeus-sql
 ## rstudio   
 Environnement Rstudio. 
