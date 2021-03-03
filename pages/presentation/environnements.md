@@ -12,13 +12,19 @@ Voici la liste de tous les environnements disponibles dans le JupyterHub du CNAM
 {:toc .toc-3columns}
 
 ## Mediaserver   
+
 Accès direct à votre espace "Mediaserver" du Cnam (pour le stockage et l'édition de vos média vidéos).
+
 ## cnam1  
+
 Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}). Langages disponibles pour les notebooks : 
 
-python version 3.6.11  
-R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
+- python version 3.6.11  
+- R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
 
+<button onclick="collapsetable('cnam1table')">Afficher/Cacher la liste des paquets</button>
+
+{: .table .table-striped #cnam1table}
 | Packages python | Packages R | 
 | autograd | tidyverse |
 | bokeh | reticulate |
