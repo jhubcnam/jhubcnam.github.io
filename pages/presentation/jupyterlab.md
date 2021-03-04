@@ -10,22 +10,22 @@ nav_exclude: false
 
 L'environnement Jupyter permet de travailler dans 2 principales interfaces:
 
-- La première dite "**tree**" permet d'accéder rapidement et simplement aux carnets
+- La première, appelée [**tree**](#tree), permet d'accéder rapidement et simplement aux carnets
 d'un dossier et constitue l'interface d'origine de Jupyter.
-- La seconde interface dite "**Lab**" est un environnement plus riche permettant l'utilisation de
+- La seconde interface, appelée [**Lab**](#lab), est un environnement plus riche permettant l'utilisation de
 nombreux outils pour interagir avec les carnets, leurs options et leur contenus.
 
 Cette page présente rapidement les deux interfaces.
 
 
+<a name="tree"></a>
 ## L'interface de travail basique "Tree"
 
 Cette première interface est l'environnement de travail d'origine de Jupyter et
 permet une utilisation simple et efficace des carnets. Par défaut, à l'ouverture
-du liens Jhub dans moodle, votre navigateur arrive à la racine du gestionnaire de fichier.
+du lien Jhub dans moodle, votre navigateur arrive à la racine du gestionnaire de fichier.
 L'interface est alors majoritairement pilotée par le navigateur qui ouvrira un
-nouvel onglet si vous cliquez sur un nouveau document (carnets, data,
-images...)
+nouvel onglet si vous cliquez sur un nouveau document.
 
 ![image tree]({{ '/assets/images/dashboard.png' | absolute_url }})
 
@@ -35,6 +35,7 @@ d'interagir avec les carnets (sauvegarde, fermeture, exécution par
 cellules...).
 
 
+<a name="lab"></a>
 ## L'interface de travail avancée "JupyterLab"
 
 Cette interface est un environnement de travail complet (type IDE) permettant la

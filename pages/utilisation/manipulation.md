@@ -9,20 +9,23 @@ nav_exclude: true
 Au fil des années, nos enseignements deviennent de plus en plus liés à la science des données et se basent de plus en plus souvent sur le traitement de jeux de données et sur la façon dont on peut en tirer de l'information.
 Les carnets Jupyter peuvent être un bon support pour mener à bien ce type de tâche, de façon efficace, élégante et avancée.
 
-* Quelles possibilités pour la **manipulation de données** dans un carnet ? :
-    - ranger les données dans des structures, les manipuler, les filtrer [lien nb 1 : "Manipulations_de_donnees_Python_Pandas.ipynb"]
-    - nettoyer un jeu de données afin de le rendre exploitable et ordonné [lien nb 2 : "Nettoyage_de_donnees_Python_Pandas.ipynb"]
-    - visualiser graphiquement les données [lien nb 3 : "Representation_graphique_Python_Matplotlib.ipynb"]
-    - utiliser l’interactivité et la manipulation dynamique des données à l’intérieur des carnets [lien nb 4 : "Cours_Interactivite_avec_IPywidgets.ipynb"]
+Voici quelques possibilités de **manipulation de données** dans un carnet :
 
-* Quelles possibilités pour **transformer les données en information** dans un carnet ? :
-    - analyser des données via la statistique, l'algèbre linéaire, l'optimisation, l'analyse de Fourier ...
-    - apprendre à partir des données (machine learning, IA) [lien nb 5 : "K-moyennes_Python_ScikitLearn.ipynb"]
+- ranger les données dans des structures, les manipuler, les filtrer. Voir le carnet [Manipulations_de_donnees_Python_Pandas.ipynb](https://carnets.cnam.fr/)
+- nettoyer un jeu de données afin de le rendre exploitable et ordonné. Voir le carnet [Nettoyage_de_donnees_Python_Pandas.ipynb](https://carnets.cnam.fr/)
+- visualiser graphiquement les données. Voir le carnet [Representation_graphique_Python_Matplotlib.ipynb](https://carnets.cnam.fr/)
 
-Pour d'autres exemples de notebooks incluant des applications très concrètes sur des jeux de données, voir [ici](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks).  
-L'ensemble des opérations listées ci-dessus peuvent être réalisées à l'aide de librairies préconçues et disponibles pour tous les langages présents sur le JupyterHub du Cnam.
+- utiliser l’interactivité et la manipulation dynamique des données à l’intérieur des carnets. Voir le carnet [Cours_Interactivite_avec_IPywidgets.ipynb](https://carnets.cnam.fr/#cm1)
 
-Voici par exemple en **Python**, quelques packetages clé à utiliser pour la science des données : 
+Et quelques possibilités de **transformation des données en information** dans un carnet :
+
+- analyser des données via la statistique, l'algèbre linéaire, l'optimisation, l'analyse de Fourier ...
+
+- apprendre à partir des données (machine learning, IA). Voir le carnet [K-moyennes_Python_ScikitLearn.ipynb"](https://carnets.cnam.fr/#cm3)
+
+L'ensemble des opérations listées ci-dessus peuvent être réalisées à l'aide de librairies préconçues et disponibles pour tous les langages présents sur le JupyterHub du Cnam. Pour d'autres exemples de notebooks incluant des applications très concrètes sur des jeux de données, voir [ici](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks). 
+
+Voici par exemple en **Python**, quelques packetages-clés, à utiliser pour la science des données : 
 
 - `pandas` : manipulation de données
 - `matplotlib`, `plotly` et `seaborn` : visualisation des données
