@@ -9,16 +9,19 @@ nav_exclude: false
 Voici la liste de tous les environnements disponibles dans le JupyterHub du CNAM (accessibles [via Moodle](https://mediaserver.cnam.fr/permalink/v12618e559fcdonzzxq7/iframe/" allowfullscreen="allowfullscreen)):
 
 1. TOC
-{:toc .toc-3columns}
+{:toc .toc-2columns}
 
 ## cnam1  
 Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).  
 
-Langages disponibles pour les notebooks : 
+Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}). Langages disponibles pour les notebooks : 
 
-python version 3.6.11  
-R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
+- python version 3.6.11  
+- R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
 
+<button onclick="collapsetable('cnam1table')">Afficher/Cacher la liste des paquets</button>
+
+{: .table .table-striped #cnam1table}
 | Packages python | Packages R | 
 | autograd | tidyverse |
 | bokeh | reticulate |
@@ -72,6 +75,9 @@ Langages disponibles pour les notebooks :
 python version 3.8.5
 R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 
+<button onclick="collapsetable('mathapptable')">Afficher/Cacher la liste des paquets</button>
+
+{: .table .table-striped #mathapptable}
 | Packages python | Packages R | 
 | ipympl | r-tidyverse |
 | ipywidgets | r-reticulate |
@@ -98,5 +104,5 @@ R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 ## bio
 ## intechmer
 ## cnam1tree   
-Environnement [Jupyter "Tree"]({{ 'pages/presentation/jupyterlab' | absolute_url }}). Langages disponibles pour les notebooks : Python 3 et R. 
+Environnement [Jupyter "Tree"]({{ 'pages/presentation/interfaces' | absolute_url }}). Langages disponibles pour les notebooks : Python 3 et R. 
 ## bioinfo

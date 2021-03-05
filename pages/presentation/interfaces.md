@@ -1,6 +1,6 @@
 ---
 layout: default
-title: JupyterLab
+title: Interfaces
 nav_order: 2
 parent: "Présentation"
 nav_exclude: false

@@ -156,6 +156,9 @@ $link-color: $cnam-red;
   padding-bottom: 14px;
   /*border:1px solid red;*/
 }
+.toc-2columns{
+ column-count: 2; 
+}
 .toc-3columns{
  column-count: 3; 
 }
