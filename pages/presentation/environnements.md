@@ -122,7 +122,9 @@ R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 | docopt |  |
 
 ## deeplearning
+
 python version 3.6.11
+
 <button onclick="collapsetable('mathapptable')">Afficher/Cacher la liste des paquets</button>
 
 {: .table .table-striped #mathapptable}
