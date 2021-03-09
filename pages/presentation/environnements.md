@@ -53,6 +53,27 @@ Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url 
 
 Le même environnement est disponible avec l'interface tree : Cnam1tree
 
+## octave
+
+- GNU Octave, version 4.2.2
+
+<button onclick="collapsetable('octavetable')">Afficher/Cacher la liste des paquets</button>
+
+{: .table .table-striped #octavetable}
+| Packages système | Packages python |
+| octave | gnuplot | 
+| octave-symbolic | jupyterlab |  
+| octave-miscellaneous | ipywidgets |  
+| python-sympy | texinfo |  
+| gnuplot | qt |  
+| ghostscript | pyqt |
+| liboctave-dev | octave_kernel |
+| gcc |  | 
+| texlive-xetex | |  
+| texlive-fonts-recommended |  | 
+| texlive-generic-recommended |  | 
+| pandoc |  |
+
 ## rstudio
 Environnement proposant l'interface rstudio et la version de  
 
