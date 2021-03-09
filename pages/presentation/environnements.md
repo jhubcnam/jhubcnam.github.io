@@ -96,9 +96,9 @@ Langages disponibles pour les notebooks :
 python version 3.8.5
 R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 
-<button onclick="collapsetable('mathapptable')">Afficher/Cacher la liste des paquets</button>
+<button onclick="collapsetable('deeplearning')">Afficher/Cacher la liste des paquets</button>
 
-{: .table .table-striped #mathapptable}
+{: .table .table-striped #deeplearning}
 | Packages python | Packages R | 
 | ipympl | r-tidyverse |
 | ipywidgets | r-reticulate |
@@ -122,6 +122,42 @@ R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 | docopt |  |
 
 ## deeplearning
+python version 3.6.11
+<button onclick="collapsetable('mathapptable')">Afficher/Cacher la liste des paquets</button>
+
+{: .table .table-striped #mathapptable}
+| Packages python |
+| ipympl |
+| ipywidgets |
+| jupyterlab=2 |
+| matplotlib |
+| nbresuse |
+| numpy |
+| pandas |
+| psutil |
+| dill |
+| partd |
+| bokeh |
+| dask |
+| autograd |
+| keras |
+| tensorflow |
+| scikit-learn |
+| seaborn=0.10.1 |
+| tqdm |
+| scikit-image |
+| Pillow |
+| nbgitpuller |
+| opencv-python-headless
+| pip |
+| pytorch |
+| torchvision |
+| tslearn |
+| gym |
+| tqdm |
+| nltk |
+
+
 ## bio
 ## intechmer
 ## cnam1tree   
