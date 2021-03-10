@@ -159,9 +159,34 @@ python version 3.6.11
 | tqdm |
 | nltk |
 
-
-## bio
 ## intechmer
+
+Environnement éléboré spécifiquement pour l'Intechmer, avec l'interface Rstudio et les packages sélectionnés par les enseignants,
+avec la particularité de lier dans l'environnement le dépot git de l'enseignant.
+
+- R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
+- python version 3.7.8
+
+| Packages python | Packages python |
+| nbgitpuller | r-base=3.6 |
+|  | r-tidyverse |
+|  | r-rmarkdown |
+|  | r-httr |
+|  | r-shinydashboard |
+|  | r-leaflet |
+|  | r-ggplot2 |
+|  | r-ggmap |
+|  | r-raster |
+|  | r-rgeos |
+|  | r-rgdal |
+|  | r-sp |
+|  | r-lubridate |
+|  | r-vegan |
+|  | r-ade4 |
+|  | r-bookdown |
+|  | r-worms |
+|  | r-readxl |
+
 ## cnam1tree   
 Environnement [Jupyter "Tree"]({{ 'pages/presentation/interfaces' | absolute_url }}). Langages disponibles pour les notebooks : Python 3 et R. 
 ## bioinfo
