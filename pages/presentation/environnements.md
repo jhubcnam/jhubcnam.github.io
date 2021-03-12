@@ -1,4 +1,3 @@
----
 layout: page
 title: Environnements
 nav_order: 4
@@ -11,18 +10,61 @@ Voici la liste de tous les environnements disponibles dans le JupyterHub du CNAM
 1. TOC
 {:toc .toc-2columns}
 
-## Cnam1  
-Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).  
+## Bio-informatique
 
-Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}). Langages disponibles pour les notebooks : 
+- python version 3.7.8
+- R version 4.0.2 (2020-06-22) -- "Taking Off Again"
 
-- python version 3.6.11  
+<button onclick="collapsetable('bioinfotable')">Afficher/Cacher la liste des paquets</button>
+
+{: .table .table-striped #bioinfotable}
+| Packages python | Packages python |
+| autograd | base=4.0.2 |
+| bcftools | broom |
+| bokeh | tidyverse |
+| bwa | rmarkdown |
+| cobra | mass |
+| cython | mvtnorm |
+| dask | prettydoc |
+| dill | reticulate |
+| docopt | prettydoc |
+| eigensoft | sybil |
+| ffmpeg-python | ggraph |
+| gatk | ape |
+| gcta | graph |
+| htseq | igraph |
+| ipympl | BiocManager |
+| ipywidgets | snpStats |
+| java-jdk | biomaRt |
+| jupyterlab=2 | DESeq2 |
+| jupytext | GWASTools |
+| matplotlib | qvalue |
+| nbresuse | affy |
+| numpy | limma |
+| numba | GOfuncR |
+| pandas | Rcpi |
+| partd | UniProt.ws |
+| plink | BSgenome.Hsapiens.NCBI.GRCh38 |
+| plotly==4.4.1 | SNPlocs.Hsapiens.dbSNP141.GRCh38 |
+| psutil | TxDb.Hsapiens.UCSC.hg38.knownGene
+| python=3 |  |
+| pysam |  |
+| samtools |  |
+| seaborn==0.10.1 |  |
+| sympy |  |
+
+## Cnam1
+Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).
+
+Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}). Langages disponibles pour les notebooks :
+
+- python version 3.6.11
 - R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
 
 <button onclick="collapsetable('cnam1table')">Afficher/Cacher la liste des paquets</button>
 
 {: .table .table-striped #cnam1table}
-| Packages python | Packages R | 
+| Packages python | Packages R |
 | autograd | tidyverse |
 | bokeh | reticulate |
 | cython | mosaicdata
@@ -31,7 +73,7 @@ Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url 
 | ipygany |  |
 | ipyleaflet |  |
 | ipympl |  |
-| ipywidgets | 
+| ipywidgets |
 | matplotlib |  |
 | mayavi |  |
 | mpmath |  |
@@ -49,80 +91,9 @@ Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url 
 | seaborn |  |
 | sympy |  |
 | xlrd |  |
-| xlwt | i |
+| xlwt |  |
 
 Le même environnement est disponible avec l'interface tree : Cnam1tree
-
-## Octave
-
-- GNU Octave, version 4.2.2
-
-<button onclick="collapsetable('octavetable')">Afficher/Cacher la liste des paquets</button>
-
-{: .table .table-striped #octavetable}
-| Packages système | Packages python |
-| octave | gnuplot | 
-| octave-symbolic | jupyterlab |  
-| octave-miscellaneous | ipywidgets |  
-| python-sympy | texinfo |  
-| gnuplot | qt |  
-| ghostscript | pyqt |
-| liboctave-dev | octave_kernel |
-| gcc |  | 
-| texlive-xetex | |  
-| texlive-fonts-recommended |  | 
-| texlive-generic-recommended |  | 
-| pandoc |  |
-
-## Rstudio
-Environnement proposant l'interface rstudio et la version de  
-
-- R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
-
-<button onclick="collapsetable('rstudiotable')">Afficher/Cacher la liste des paquets</button>
-
-{: .table .table-striped #rstudiotable}
-* tidyverse
-* rmarkdown
-* httr
-* shinydashboard
-* leaflet
-* sf
-* tmap
-* mapview
-
-## Mathématiques appliquées
-Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).
-
-Langages disponibles pour les notebooks :
-
-- python version 3.8.5
-- R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
-
-<button onclick="collapsetable('deeplearning')">Afficher/Cacher la liste des paquets</button>
-
-{: .table .table-striped #deeplearning}
-| Packages python | Packages R | 
-| ipympl | r-tidyverse |
-| ipywidgets | r-reticulate |
-| matplotlib |  |
-| nbresuse |  |
-| numpy |  |
-| pandas |  |
-| psutil |  |
-| dill |  |
-| partd |  |
-| bokeh |  |
-| dask |  |
-| autograd |  |
-| plotly |  |
-| sympy |  |
-| jupytext |  |
-| cython |  |
-| numba |  |
-| ffmpeg-python |  |
-| seaborn==0.10.1 |  |
-| docopt |  |
 
 ## Deeplearning
 
@@ -193,48 +164,95 @@ avec la particularité de lier dans l'environnement le dépot git de l'enseignan
 |  | r-worms |
 |  | r-readxl |
 
-## Bio-informatique
+## Mathématiques appliquées
+Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).
 
-- python version 3.7.8
-- R version 4.0.2 (2020-06-22) -- "Taking Off Again"
+Langages disponibles pour les notebooks :
 
-<button onclick="collapsetable('bioinfotable')">Afficher/Cacher la liste des paquets</button>
+- python version 3.8.5
+- R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 
-{: .table .table-striped #bioinfotable}
-| Packages python | Packages python |
-| autograd | base=4.0.2 |
-| bcftools | broom |
-| bokeh | tidyverse |
-| bwa | rmarkdown |
-| cobra | mass |
-| cython | mvtnorm |
-| dask | prettydoc |
-| dill | reticulate |
-| docopt | prettydoc |
-| eigensoft | sybil |
-| ffmpeg-python | ggraph |
-| gatk | ape |
-| gcta | graph |
-| htseq | igraph |
-| ipympl | BiocManager |
-| ipywidgets | snpStats |
-| java-jdk | biomaRt |
-| jupyterlab=2 | DESeq2 |
-| jupytext | GWASTools |
-| matplotlib | qvalue |
-| nbresuse | affy |
-| numpy | limma |
-| numba | GOfuncR |
-| pandas | Rcpi |
-| partd | UniProt.ws |
-| plink | BSgenome.Hsapiens.NCBI.GRCh38 |
-| plotly==4.4.1 | SNPlocs.Hsapiens.dbSNP141.GRCh38 |
-| psutil | TxDb.Hsapiens.UCSC.hg38.knownGene 
-| python=3 |  |
-| pysam |  |
-| samtools |  |
-| seaborn==0.10.1 |  |
+<button onclick="collapsetable('deeplearning')">Afficher/Cacher la liste des paquets</button>
+
+{: .table .table-striped #deeplearning}
+| Packages python | Packages R |
+| ipympl | r-tidyverse |
+| ipywidgets | r-reticulate |
+| matplotlib |  |
+| nbresuse |  |
+| numpy |  |
+| pandas |  |
+| psutil |  |
+| dill |  |
+| partd |  |
+| bokeh |  |
+| dask |  |
+| autograd |  |
+| plotly |  |
 | sympy |  |
+| jupytext |  |
+| cython |  |
+| numba |  |
+| ffmpeg-python |  |
+| seaborn==0.10.1 |  |
+| docopt |  |
+
+## Octave
+
+- GNU Octave, version 4.2.2
+
+<button onclick="collapsetable('octavetable')">Afficher/Cacher la liste des paquets</button>
+
+{: .table .table-striped #octavetable}
+| Packages système | Packages python |
+| octave | gnuplot |
+| octave-symbolic | jupyterlab |
+| octave-miscellaneous | ipywidgets |
+| python-sympy | texinfo |
+| gnuplot | qt |
+| ghostscript | pyqt |
+| liboctave-dev | octave_kernel |
+| gcc |  |
+| texlive-xetex | |
+| texlive-fonts-recommended |  |
+| texlive-generic-recommended |  |
+| pandoc |  |
+
+## Rstudio
+Environnement proposant l'interface rstudio et la version de
+
+- R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
+
+<button onclick="collapsetable('rstudiotable')">Afficher/Cacher la liste des paquets</button>
+
+{: .table .table-striped #rstudiotable}
+* tidyverse
+* rmarkdown
+* httr
+* shinydashboard
+* leaflet
+* sf
+* tmap
+* mapview
+
+## Spatial
+
+- python 3.8.6
+
+<button onclick="collapsetable('spatialtable')">Afficher/Cacher la liste des paquets</button>
+
+{: .table .table-striped #spatialtable}
+| Packages système | Packages python |
+| libgl1-mesa-glx | ipywidgets=7 |
+|  | numpy |
+|  | matplotlib |
+|  | pandas |
+|  | numba |
+|  | scipy |
+|  | sympy |
+|  | vtk |
+|  | jsanimation |
+|  | mayavi |
 
 ## Territoires et cartographie
 
