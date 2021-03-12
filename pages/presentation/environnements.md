@@ -173,9 +173,9 @@ Langages disponibles pour les notebooks :
 - python version 3.8.5
 - R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 
-<button onclick="collapsetable('deeplearning')">Afficher/Cacher la liste des paquets</button>
+<button onclick="collapsetable('mathstable')">Afficher/Cacher la liste des paquets</button>
 
-{: .table .table-striped #deeplearning}
+{: .table .table-striped #mathstable}
 | Packages python | Packages R |
 | ipympl | r-tidyverse |
 | ipywidgets | r-reticulate |
