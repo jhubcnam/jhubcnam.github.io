@@ -79,6 +79,9 @@ Environnement proposant l'interface rstudio et la version de
 
 R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 
+<button onclick="collapsetable('rstudiotable')">Afficher/Cacher la liste des paquets</button>
+
+{: .table .table-striped #rstudiotable}
 * tidyverse
 * rmarkdown
 * httr
@@ -167,6 +170,9 @@ avec la particularité de lier dans l'environnement le dépot git de l'enseignan
 - R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 - python version 3.7.8
 
+<button onclick="collapsetable('intechmertable')">Afficher/Cacher la liste des paquets</button>
+
+{: .table .table-striped #intechmertable}
 | Packages python | Packages python |
 | nbgitpuller | r-base=3.6 |
 |  | r-tidyverse |
@@ -187,6 +193,5 @@ avec la particularité de lier dans l'environnement le dépot git de l'enseignan
 |  | r-worms |
 |  | r-readxl |
 
-## cnam1tree   
-Environnement [Jupyter "Tree"]({{ 'pages/presentation/interfaces' | absolute_url }}). Langages disponibles pour les notebooks : Python 3 et R. 
-## bioinfo
+## Bio-informatique
+
