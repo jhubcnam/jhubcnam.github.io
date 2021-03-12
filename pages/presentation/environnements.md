@@ -11,7 +11,7 @@ Voici la liste de tous les environnements disponibles dans le JupyterHub du CNAM
 1. TOC
 {:toc .toc-2columns}
 
-## cnam1  
+## Cnam1  
 Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).  
 
 Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}). Langages disponibles pour les notebooks : 
@@ -53,7 +53,7 @@ Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url 
 
 Le même environnement est disponible avec l'interface tree : Cnam1tree
 
-## octave
+## Octave
 
 - GNU Octave, version 4.2.2
 
@@ -74,10 +74,10 @@ Le même environnement est disponible avec l'interface tree : Cnam1tree
 | texlive-generic-recommended |  | 
 | pandoc |  |
 
-## rstudio
+## Rstudio
 Environnement proposant l'interface rstudio et la version de  
 
-R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
+- R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 
 <button onclick="collapsetable('rstudiotable')">Afficher/Cacher la liste des paquets</button>
 
@@ -96,8 +96,8 @@ Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).
 
 Langages disponibles pour les notebooks :
 
-python version 3.8.5
-R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
+- python version 3.8.5
+- R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 
 <button onclick="collapsetable('deeplearning')">Afficher/Cacher la liste des paquets</button>
 
@@ -124,9 +124,9 @@ R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 | seaborn==0.10.1 |  |
 | docopt |  |
 
-## deeplearning
+## Deeplearning
 
-python version 3.6.11
+- python version 3.6.11
 
 <button onclick="collapsetable('mathapptable')">Afficher/Cacher la liste des paquets</button>
 
@@ -162,7 +162,7 @@ python version 3.6.11
 | tqdm |
 | nltk |
 
-## intechmer
+## Intechmer
 
 Environnement éléboré spécifiquement pour l'Intechmer, avec l'interface Rstudio et les packages sélectionnés par les enseignants,
 avec la particularité de lier dans l'environnement le dépot git de l'enseignant.
@@ -195,3 +195,61 @@ avec la particularité de lier dans l'environnement le dépot git de l'enseignan
 
 ## Bio-informatique
 
+- python version 3.7.8
+- R version 4.0.2 (2020-06-22) -- "Taking Off Again"
+
+<button onclick="collapsetable('bioinfotable')">Afficher/Cacher la liste des paquets</button>
+
+{: .table .table-striped #bioinfotable}
+| Packages python | Packages python |
+| autograd | base=4.0.2 |
+| bcftools | broom |
+| bokeh | tidyverse |
+| bwa | rmarkdown |
+| cobra | mass |
+| cython | mvtnorm |
+| dask | prettydoc |
+| dill | reticulate |
+| docopt | prettydoc |
+| eigensoft | sybil |
+| ffmpeg-python | ggraph |
+| gatk | ape |
+| gcta | graph |
+| htseq | igraph |
+| ipympl | BiocManager |
+| ipywidgets | snpStats |
+| java-jdk | biomaRt |
+| jupyterlab=2 | DESeq2 |
+| jupytext | GWASTools |
+| matplotlib | qvalue |
+| nbresuse | affy |
+| numpy | limma |
+| numba | GOfuncR |
+| pandas | Rcpi |
+| partd | UniProt.ws |
+| plink | BSgenome.Hsapiens.NCBI.GRCh38 |
+| plotly==4.4.1 | SNPlocs.Hsapiens.dbSNP141.GRCh38 |
+| psutil | TxDb.Hsapiens.UCSC.hg38.knownGene 
+| python=3 |  |
+| pysam |  |
+| samtools |  |
+| seaborn==0.10.1 |  |
+| sympy |  |
+
+## Territoires et cartographie
+
+- R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
+
+<button onclick="collapsetable('terretable')">Afficher/Cacher la liste des paquets</button>
+
+{: .table .table-striped #terretable}
+| Packages système | Packages python |
+| libgdal-dev | tidyverse |
+| libproj-dev | rmarkdown |
+| libgeos-dev | httr |
+| libudunits2-dev | shinydashboard |
+|  | leaflet |
+|  | sf |
+|  | tmap |
+|  | mapview |
+|  | cartography |
