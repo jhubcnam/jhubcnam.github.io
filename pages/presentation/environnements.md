@@ -16,9 +16,7 @@ Voici la liste de tous les environnements disponibles dans le JupyterHub du CNAM
 - python version 3.7.8
 - R version 4.0.2 (2020-06-22) -- "Taking Off Again"
 
-<button onclick="collapsetable('bioinfotable')">Afficher/Cacher la liste des paquets</button>
-
-{: .table .table-striped #bioinfotable}
+{% capture details %}
 | Packages python | Packages python |
 | autograd | base=4.0.2 |
 | bcftools | broom |
@@ -53,6 +51,8 @@ Voici la liste de tous les environnements disponibles dans le JupyterHub du CNAM
 | samtools |  |
 | seaborn==0.10.1 |  |
 | sympy |  |
+{% endcapture %}
+{% capture summary %}&#x25BA; Détails des paquets{% endcapture %}{% include details.html %}
 
 ## Cnam1
 Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).
@@ -62,9 +62,7 @@ Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url 
 - python version 3.6.11
 - R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
 
-<button onclick="collapsetable('cnam1table')">Afficher/Cacher la liste des paquets</button>
-
-{: .table .table-striped #cnam1table}
+{% capture details %}
 | Packages python | Packages R |
 | autograd | tidyverse |
 | bokeh | reticulate |
@@ -93,6 +91,8 @@ Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url 
 | sympy |  |
 | xlrd |  |
 | xlwt |  |
+{% endcapture %}
+{% capture summary %}&#x25BA; Détails des paquets{% endcapture %}{% include details.html %}
 
 Le même environnement est disponible avec l'interface tree : Cnam1tree
 
@@ -100,9 +100,7 @@ Le même environnement est disponible avec l'interface tree : Cnam1tree
 
 - python version 3.6.11
 
-<button onclick="collapsetable('mathapptable')">Afficher/Cacher la liste des paquets</button>
-
-{: .table .table-striped #mathapptable}
+{% capture details %}
 | Packages python |
 | ipympl |
 | ipywidgets |
@@ -133,6 +131,8 @@ Le même environnement est disponible avec l'interface tree : Cnam1tree
 | gym |
 | tqdm |
 | nltk |
+{% endcapture %}
+{% capture summary %}&#x25BA; Détails des paquets{% endcapture %}{% include details.html %}
 
 ## Intechmer
 
@@ -142,9 +142,7 @@ avec la particularité de lier dans l'environnement le dépot git de l'enseignan
 - R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 - python version 3.7.8
 
-<button onclick="collapsetable('intechmertable')">Afficher/Cacher la liste des paquets</button>
-
-{: .table .table-striped #intechmertable}
+{% capture details %}
 | Packages python | Packages python |
 | nbgitpuller | r-base=3.6 |
 |  | r-tidyverse |
@@ -164,6 +162,8 @@ avec la particularité de lier dans l'environnement le dépot git de l'enseignan
 |  | r-bookdown |
 |  | r-worms |
 |  | r-readxl |
+{% endcapture %}
+{% capture summary %}&#x25BA; Détails des paquets{% endcapture %}{% include details.html %}
 
 ## Mathématiques appliquées
 Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).
@@ -173,9 +173,7 @@ Langages disponibles pour les notebooks :
 - python version 3.8.5
 - R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 
-<button onclick="collapsetable('mathstable')">Afficher/Cacher la liste des paquets</button>
-
-{: .table .table-striped #mathstable}
+{% capture details %}
 | Packages python | Packages R |
 | ipympl | r-tidyverse |
 | ipywidgets | r-reticulate |
@@ -197,14 +195,14 @@ Langages disponibles pour les notebooks :
 | ffmpeg-python |  |
 | seaborn==0.10.1 |  |
 | docopt |  |
+{% endcapture %}
+{% capture summary %}&#x25BA; Détails des paquets{% endcapture %}{% include details.html %}
 
 ## Octave
 
 - GNU Octave, version 4.2.2
 
-<button onclick="collapsetable('octavetable')">Afficher/Cacher la liste des paquets</button>
-
-{: .table .table-striped #octavetable}
+{% capture details %}
 | Packages système | Packages python |
 | octave | gnuplot |
 | octave-symbolic | jupyterlab |
@@ -218,15 +216,15 @@ Langages disponibles pour les notebooks :
 | texlive-fonts-recommended |  |
 | texlive-generic-recommended |  |
 | pandoc |  |
+{% endcapture %}
+{% capture summary %}&#x25BA; Détails des paquets{% endcapture %}{% include details.html %}
 
 ## Rstudio
 Environnement proposant l'interface rstudio et la version de
 
 - R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 
-<button onclick="collapsetable('rstudiotable')">Afficher/Cacher la liste des paquets</button>
-
-{: .table .table-striped #rstudiotable}
+{% capture details %}
 * tidyverse
 * rmarkdown
 * httr
@@ -235,14 +233,14 @@ Environnement proposant l'interface rstudio et la version de
 * sf
 * tmap
 * mapview
+{% endcapture %}
+{% capture summary %}&#x25BA; Détails des paquets{% endcapture %}{% include details.html %}
 
 ## Spatial
 
 - python 3.8.6
 
-<button onclick="collapsetable('spatialtable')">Afficher/Cacher la liste des paquets</button>
-
-{: .table .table-striped #spatialtable}
+{% capture details %}
 | Packages système | Packages python |
 | libgl1-mesa-glx | ipywidgets=7 |
 |  | numpy |
@@ -254,14 +252,14 @@ Environnement proposant l'interface rstudio et la version de
 |  | vtk |
 |  | jsanimation |
 |  | mayavi |
+{% endcapture %}
+{% capture summary %}&#x25BA; Détails des paquets{% endcapture %}{% include details.html %}
 
 ## Territoires et cartographie
 
 - R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 
-<button onclick="collapsetable('terretable')">Afficher/Cacher la liste des paquets</button>
-
-{: .table .table-striped #terretable}
+{% capture details %}
 | Packages système | Packages python |
 | libgdal-dev | tidyverse |
 | libproj-dev | rmarkdown |
@@ -272,3 +270,5 @@ Environnement proposant l'interface rstudio et la version de
 |  | tmap |
 |  | mapview |
 |  | cartography |
+{% endcapture %}
+{% capture summary %}&#x25BA; Détails des paquets{% endcapture %}{% include details.html %}

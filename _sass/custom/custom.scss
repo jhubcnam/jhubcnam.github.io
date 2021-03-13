@@ -163,3 +163,25 @@ $link-color: $cnam-red;
  column-count: 3; 
 }
 
+//
+// <details> tag
+//
+details {
+    border-radius: 10px;
+    padding: 0px 8px;
+    margin-bottom: 15px;
+}
+details[open] {
+    background: lighten($cnam-warmGrey4C, 14%);
+    padding: 0px 8px 8px 8px;
+}
+summary {
+    margin: 0px 0px 8px 0px;
+    outline:none;
+}
+summary:hover {
+    text-decoration: underline;
+}
+details summary {
+    color: $cnam-red;
+}
