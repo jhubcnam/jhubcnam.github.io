@@ -12,12 +12,15 @@ Voici la liste de tous les environnements disponibles dans le JupyterHub du CNAM
 {:toc .toc-2columns}
 
 ## Bio-informatique
+Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).
+
+Langages disponibles pour les notebooks :
 
 - python version 3.7.8
 - R version 4.0.2 (2020-06-22) -- "Taking Off Again"
 
 {% capture details %}
-| Packages python | Packages python |
+| **Packages python** | **Packages R** |
 | autograd | base=4.0.2 |
 | bcftools | broom |
 | bokeh | tidyverse |
@@ -55,15 +58,15 @@ Voici la liste de tous les environnements disponibles dans le JupyterHub du CNAM
 {% capture summary %}&#x25BA; Détails des paquets{% endcapture %}{% include details.html %}
 
 ## Cnam1
-Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).
+Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}) ou [Jupyter "Tree"]({{ 'pages/presentation/jupyterlab' | absolute_url }}) (dans ce cas choisir "Cnam1tree" dans la liste des environnements).
 
-Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}). Langages disponibles pour les notebooks :
+Langages disponibles pour les notebooks :
 
 - python version 3.6.11
 - R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
 
 {% capture details %}
-| Packages python | Packages R |
+| **Packages python** | **Packages R** |
 | autograd | tidyverse |
 | bokeh | reticulate |
 | cython | mosaicdata
@@ -94,14 +97,15 @@ Environnement [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url 
 {% endcapture %}
 {% capture summary %}&#x25BA; Détails des paquets{% endcapture %}{% include details.html %}
 
-Le même environnement est disponible avec l'interface tree : Cnam1tree
-
 ## Deeplearning
+Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).
+
+Langage disponible pour les notebooks :
 
 - python version 3.6.11
 
 {% capture details %}
-| Packages python |
+| **Packages python** |
 | ipympl |
 | ipywidgets |
 | jupyterlab=2 |
@@ -136,14 +140,13 @@ Le même environnement est disponible avec l'interface tree : Cnam1tree
 
 ## Intechmer
 
-Environnement éléboré spécifiquement pour l'Intechmer, avec l'interface Rstudio et les packages sélectionnés par les enseignants,
-avec la particularité de lier dans l'environnement le dépot git de l'enseignant.
+Environnement éléboré spécifiquement pour l'Intechmer, avec l'interface Rstudio et les packages sélectionnés par les enseignants, avec la particularité de lier dans l'environnement le dépot git de l'enseignant.
 
 - R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 - python version 3.7.8
 
 {% capture details %}
-| Packages python | Packages python |
+| **Packages python** | **Packages R** |
 | nbgitpuller | r-base=3.6 |
 |  | r-tidyverse |
 |  | r-rmarkdown |
@@ -174,7 +177,7 @@ Langages disponibles pour les notebooks :
 - R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 
 {% capture details %}
-| Packages python | Packages R |
+| **Packages python** | **Packages R** |
 | ipympl | r-tidyverse |
 | ipywidgets | r-reticulate |
 | matplotlib |  |
@@ -199,11 +202,15 @@ Langages disponibles pour les notebooks :
 {% capture summary %}&#x25BA; Détails des paquets{% endcapture %}{% include details.html %}
 
 ## Octave
+Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).
+
+Langages disponibles pour les notebooks :
 
 - GNU Octave, version 4.2.2
+- python version 3.6.9
 
 {% capture details %}
-| Packages système | Packages python |
+| **Packages système** | **Packages python** |
 | octave | gnuplot |
 | octave-symbolic | jupyterlab |
 | octave-miscellaneous | ipywidgets |
@@ -220,7 +227,7 @@ Langages disponibles pour les notebooks :
 {% capture summary %}&#x25BA; Détails des paquets{% endcapture %}{% include details.html %}
 
 ## Rstudio
-Environnement proposant l'interface rstudio et la version de
+Environnement proposant l'interface Rstudio et la version de
 
 - R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 
@@ -241,7 +248,7 @@ Environnement proposant l'interface rstudio et la version de
 - python 3.8.6
 
 {% capture details %}
-| Packages système | Packages python |
+| **Packages système** | **Packages python** |
 | libgl1-mesa-glx | ipywidgets=7 |
 |  | numpy |
 |  | matplotlib |
@@ -260,7 +267,7 @@ Environnement proposant l'interface rstudio et la version de
 - R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 
 {% capture details %}
-| Packages système | Packages python |
+| **Packages système** | **Packages python** |
 | libgdal-dev | tidyverse |
 | libproj-dev | rmarkdown |
 | libgeos-dev | httr |
