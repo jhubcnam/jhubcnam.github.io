@@ -28,7 +28,7 @@ Et quelques possibilités de **transformation des données en information** dans
 - analyser des données via la statistique, l'algèbre linéaire, l'optimisation, l'analyse de Fourier ...
 
 - apprendre à partir des données (machine learning, IA).   
-➔ Voir cet exemple de carnet [K-moyennes Python ScikitLearn]({{ '/notebooks/K-moyennes_Python_ScikitLearn.html' | absolute_url }})
+➔ Voir cet exemple de carnet ![K-moyennes Python ScikitLearn]({{ '/notebooks/K-moyennes_Python_ScikitLearn.html' | absolute_url }})
 
 L'ensemble des opérations listées ci-dessus peuvent être réalisées à l'aide de librairies préconçues et disponibles pour tous les langages présents sur le JupyterHub du Cnam. Pour d'autres exemples de notebooks incluant des applications très concrètes sur des jeux de données, voir [ici](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks). 
 
