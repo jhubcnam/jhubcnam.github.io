@@ -297,6 +297,11 @@ Environnement proposant l'interface [RStudio]({{ 'pages/presentation/jupyterlab'
 ## Xeus-cling : kernel C++
 **Identifiant dans Moodle : cpp1** 
 
-- xeus-cling is a Jupyter kernel for C++ based on the C++ interpreter cling and the native implementation of the Jupyter protocol xeus. 
+Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).
 
-- Project [Xeus-cling](https://github.com/jupyter-xeus/xeus-cling) on github.
+Xeus-cling est un kernel Jupyter pour le langage C++ basé sur l'interpréteur C++ "cling" et sur l'implémentation native du protocole Jupyter "xeus". Voir le project [Xeus-cling](https://github.com/jupyter-xeus/xeus-cling) sur github.
+
+Langages disponibles pour les notebooks :
+
+- C++ (11, 14, 17)
+- python version 3.6.9
