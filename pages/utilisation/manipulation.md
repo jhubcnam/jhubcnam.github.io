@@ -12,7 +12,7 @@ Les carnets Jupyter peuvent être un bon support pour mener à bien ce type de t
 Voici quelques possibilités de **manipulation de données** dans un carnet :
 
 - ranger les données dans des structures, les manipuler, les filtrer.   
-➔ Voir cet exemple de carnet [Manipulations de donnees Python Pandas](https://gitlab.cnam.fr/gitlab/jhub/documentation/blob/master/notebooks/Manipulations_de_donnees_Python_Pandas.html)
+➔ Voir cet exemple de carnet [Manipulations de donnees Python Pandas]({{ '/notebooks/Manipulations_de_donnees_Python_Pandas.html' | absolute_url }})
   
 - nettoyer un jeu de données afin de le rendre exploitable et ordonné.   
 ➔ Voir cet exemple de carnet [Nettoyage de donnees Python Pandas]({{ '/notebooks/Nettoyage_de_donnees_Python_Pandas.html' | absolute_url }})    
