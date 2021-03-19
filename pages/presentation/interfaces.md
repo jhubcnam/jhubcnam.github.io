@@ -15,7 +15,9 @@ d'un dossier et constitue l'interface d'origine de Jupyter.
 - La seconde interface, appelée [**Lab**](#lab), est un environnement plus riche permettant l'utilisation de
 nombreux outils pour interagir avec les carnets, leurs options et leur contenus.
 
-Cette page présente rapidement les deux interfaces.
+En plus de ces 2 interfaces, le JupyterHub du Cnam offre également la possibilité de travailler dans l'interface [**RStudio**](#rstudio).
+
+Cette page présente rapidement toutes ces interfaces.
 
 
 <a name="tree"></a>
@@ -116,4 +118,18 @@ onglets ouverts.
 permet d'installer/gérer les nombreuses extensions.
 
 
-Il est possible de bifurquer d'une interface à l'autre dansle menu *Commandes*.
+Il est possible de bifurquer de l'interface "Lab" à "Tree" dans le menu *Commandes*.
+
+<a name="rstudio"></a>
+## L'interface RStudio
+
+RStudio est un environnement de développement intégré (IDE) pour le langage R. Il se présente sous la forme d’une unique fenêtre scindée en quatre zones ajustables, aux fonctions distinctes :
+* zone 1 : l'éditeur "syntax-highlighting" où est saisi le code source en R et permettant l'execution directe du code ("Run")
+* zone 2 : les outils console / terminal
+* zone 3 : les outils affichage des objets de l’espace de travail actuel (Workspace) / historique des commandes exécutées.
+* zone 4 : les outils navigateur de fichiers / affichage et d’export des graphiques / liste des extensions / navigateur d’aide / affichage des graphiques
+
+Pour plus de détails sur les possibilités offertes par cette interface, voir le [site officiel](https://rstudio.com/products/rstudio/features/).
+
+![image presNb]({{ '/assets/images/interface_rstudio.png' | absolute_url }})
+

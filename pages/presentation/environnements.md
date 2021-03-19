@@ -58,8 +58,9 @@ Langages disponibles pour les notebooks :
 {% endcapture %}
 {% capture summary %}&#x25BA; Détails des paquets{% endcapture %}{% include details.html %}
 
-## Cnam1
+## Standard R-Python
 **Identifiant dans Moodle : cnam1**  
+
 Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}) ou [Jupyter "Tree"]({{ 'pages/presentation/jupyterlab' | absolute_url }}) (dans ce cas choisir "Cnam1tree" dans la liste des environnements).
 
 Langages disponibles pour les notebooks :
@@ -101,6 +102,7 @@ Langages disponibles pour les notebooks :
 
 ## Deeplearning
 **Identifiant dans Moodle : deeplearning** 
+
 Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).
 
 Langage disponible pour les notebooks :
@@ -143,7 +145,8 @@ Langage disponible pour les notebooks :
 
 ## Intechmer
 **Identifiant dans Moodle : intechmerconda**  
-Environnement éléboré spécifiquement pour l'Intechmer, avec l'interface Rstudio et les packages sélectionnés par les enseignants, avec la particularité de lier dans l'environnement le dépot git de l'enseignant.
+
+Environnement éléboré spécifiquement pour l'Intechmer, avec l'interface [RStudio]({{ 'pages/presentation/jupyterlab' | absolute_url }}) et les packages sélectionnés par les enseignants, avec la particularité de lier dans l'environnement le dépot git de l'enseignant.
 
 - R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 - python version 3.7.8
@@ -173,6 +176,7 @@ Environnement éléboré spécifiquement pour l'Intechmer, avec l'interface Rstu
 
 ## Mathématiques appliquées
 **Identifiant dans Moodle : bio** 
+
 Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).
 
 Langages disponibles pour les notebooks :
@@ -207,6 +211,7 @@ Langages disponibles pour les notebooks :
 
 ## Octave
 **Identifiant dans Moodle : octave** 
+
 Interface [Jupyter "Lab"]({{ 'pages/presentation/jupyterlab' | absolute_url }}).
 
 Langages disponibles pour les notebooks :
@@ -233,7 +238,8 @@ Langages disponibles pour les notebooks :
 
 ## Rstudio
 **Identifiant dans Moodle : rstudio** 
-Environnement proposant l'interface Rstudio et la version de
+
+Environnement proposant l'interface [RStudio]({{ 'pages/presentation/jupyterlab' | absolute_url }}) et la version de
 
 - R version 3.6.3 (2020-02-29) -- "Holding the Windsock"
 
@@ -251,6 +257,7 @@ Environnement proposant l'interface Rstudio et la version de
 
 ## Spatial
 **Identifiant dans Moodle : spatial1** 
+
 - python 3.8.6
 
 {% capture details %}
@@ -289,6 +296,7 @@ Environnement proposant l'interface Rstudio et la version de
 
 ## Xeus-cling : kernel C++
 **Identifiant dans Moodle : cpp1** 
+
 - xeus-cling is a Jupyter kernel for C++ based on the C++ interpreter cling and the native implementation of the Jupyter protocol xeus. 
 
 - Project [Xeus-cling](https://github.com/jupyter-xeus/xeus-cling) on github.

@@ -27,7 +27,7 @@ Les carnets Jupyter représentent donc un format idéal pour les TP numériques,
 
 ou **pour les élèves** avec la rédaction de :
 - comptes-rendu de TP 
-- rapports / devoirs / examens
+- rapports / devoirs / examens    
 le tout sur document unique contenant l’ensemble des supports, dont du code executable.
 
 ## Du code dans un carnet
