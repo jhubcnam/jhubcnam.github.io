@@ -34,9 +34,9 @@ search_tokenizer_separator: /[\s/]+/
 heading_anchors: true
 
 # Aux links for the upper right navigation
-aux_links:
-  "Accès rapide Notebooks":
-    - "https://jhub.cnam.fr"
+#aux_links:
+#  "Accès rapide Notebooks":
+#    - "https://jhub.cnam.fr"
 
 # Footer content appears at the bottom of every page's main content
 footer_content: ""
