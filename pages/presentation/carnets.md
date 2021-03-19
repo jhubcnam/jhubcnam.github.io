@@ -8,35 +8,27 @@ nav_order: 1
 # Qu'est-ce qu'un carnet Jupyter ?
 {: .no_toc }
 
-## Comment créer un carnet dans Jupyter ?
+Un carnet Jupyter (notebooks en anglais) se présente sous la forme d’une feuille de texte ou de calculs manipulable à travers un navigateur web. Ce carnet se subdivise en **cellules**, des zones indépendantes pouvant contenir l’ensemble des éléments suivants :
 
-La création d'un carnet Jupyter (aussi appelé notebook) se fait en cliquant sur le bouton `New` et en sélectionnant le langage de programmation que vous souhaiterez utiliser dans votre carnet. Par exemple : `New` --> `Notebook` --> `Python 3`
+* texte html ou Markdown
+* formules au format LaTex
+* figures, graphiques
+* tableaux
+* vidéos
+* images
+* et surtout du **code exécutable** : les langages disponibles sous Jupyter sont multiples : Python, R, C++, octave, …
 
-![image nbPython]({{ '/assets/images/carnets_creation_nb.png' | absolute_url }})
+De plus ce document peut ensuite être **exporté au format pdf ou html**.   
+Les carnets Jupyter représentent donc un format idéal pour les TP numériques, que ce soit **pour l’enseignant·e** avec la rédaction de :
+- sujets de TP
+- poly de cours
+- feuille d’exercices de programmation à trous
+- ... 
 
-## Comment se présente un carnet ?
-
-Une fois le carnet créé et ouvert, voici l'interface qui se présente à vous :
-
-![image presNb]({{ '/assets/images/carnet_pres_interface.png' | absolute_url }})
-
-**Langage du carnet**    
-1 : le langage de programmation du carnet est indiqué via son logo et sa mention en haut à droite   
-
-**Edition du carnet :**   
-2 : par défaut le carnet est nommé `Untitled`. Son titre peut être modifié en cliquant sur `Untitled`  
-3 : enregistrer (un enregistrement automatique est aussi effectué à intervalle régulier)  
-4 : télécharger le carnet au format .ipynb    
-5 : se déconnecter de l'interface Jupyter    
-
-**Gestion des cellules et de leur contenu :**  
-6 : la cellule active est encadrée en bleu (les crochets à côté de `Entrée` sont vides quand la cellule n'a encore jamais été exécutée). Par défaut la cellule est en mode `Code` (cf menu déroulant au centre), ce qui signifie que son contenu sera interprété comme étant du code Python (puisque le carnet de cet exemple est un carnet Python)  
-7 : ajouter une nouvelle cellule (elle apparaît en-dessous de la cellule active)  
-8 : couper/copier/coller une cellule <br>
-9 : décaler la cellule active d'un cran vers le haut (flèche montante) ou vers le bas (flèche descendante)  
-10 : exécuter le contenu de la cellule active   
-11 : stopper l'exécution de la cellule active   
-12 : ouvrir la palette de toutes les commandes Jupyter  
+ou **pour les élèves** avec la rédaction de :
+- comptes-rendu de TP 
+- rapports / devoirs / examens
+le tout sur document unique contenant l’ensemble des supports, dont du code executable.
 
 ## Du code dans un carnet
 

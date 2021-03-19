@@ -27,12 +27,44 @@ du lien Jhub dans moodle, votre navigateur arrive à la racine du gestionnaire d
 L'interface est alors majoritairement pilotée par le navigateur qui ouvrira un
 nouvel onglet si vous cliquez sur un nouveau document.
 
-![image tree]({{ '/assets/images/dashboard.png' | absolute_url }})
+### Comment créer un carnet dans Jupyter "Tree" ?
 
-Avec cette interface, il est possible de visualiser et d'exécuter simplement les
+La création d'un carnet Jupyter (aussi appelé notebook) se fait en cliquant sur le bouton `New` et en sélectionnant le langage de programmation que vous souhaiterez utiliser dans votre carnet. Par exemple : `New` --> `Notebook` --> `Python 3`
+
+![image nbPython]({{ '/assets/images/carnets_creation_nb.png' | absolute_url }})
+
+### Comment se présente un carnet ?
+
+Une fois le carnet créé et ouvert, voici l'interface qui se présente à vous dans Jupyter "Tree" :
+
+![image presNb]({{ '/assets/images/carnet_pres_interface.png' | absolute_url }})
+
+**Langage du carnet**    
+1 : le langage de programmation du carnet est indiqué via son logo et sa mention en haut à droite   
+
+**Edition du carnet :**   
+2 : par défaut le carnet est nommé `Untitled`. Son titre peut être modifié en cliquant sur `Untitled`  
+3 : enregistrer (un enregistrement automatique est aussi effectué à intervalle régulier)  
+4 : télécharger le carnet au format .ipynb    
+5 : se déconnecter de l'interface Jupyter    
+
+**Gestion des cellules et de leur contenu :**  
+6 : la cellule active est encadrée en bleu (les crochets à côté de `Entrée` sont vides quand la cellule n'a encore jamais été exécutée). Par défaut la cellule est en mode `Code` (cf menu déroulant au centre), ce qui signifie que son contenu sera interprété comme étant du code Python (puisque le carnet de cet exemple est un carnet Python)  
+7 : ajouter une nouvelle cellule (elle apparaît en-dessous de la cellule active)  
+8 : couper/copier/coller une cellule <br>
+9 : décaler la cellule active d'un cran vers le haut (flèche montante) ou vers le bas (flèche descendante)  
+10 : exécuter le contenu de la cellule active   
+11 : stopper l'exécution de la cellule active   
+12 : ouvrir la palette de toutes les commandes Jupyter 
+
+### Comment interagir avec les carnet ?
+
+Avec l'interface "Tree", il est possible de visualiser et d'exécuter simplement les
 carnets. Le menu horizontal permet de sélectionner certaines options afin
 d'interagir avec les carnets (sauvegarde, fermeture, exécution par
 cellules...).
+
+![image tree]({{ '/assets/images/dashboard.png' | absolute_url }})
 
 
 <a name="lab"></a>
