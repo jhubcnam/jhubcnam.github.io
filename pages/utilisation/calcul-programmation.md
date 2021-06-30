@@ -30,7 +30,8 @@ renvoyer à l'enseignant pour illustrer et appliquer les éléments d'un cours :
 2. [Programmation d'un algorithme simple](https://hpp.education/Lessons/Python/Files/TP1-Langton.html)
 3. [Conception d'un profil d'aile](https://hpp.education/Lessons/Aerodynamique/Files/TN2_Profils.html)
 
-Vous pouvez également consulter la galerie interactive des carnets du CNAM :
+Vous pouvez également consulter d'autres exemples de carnets réalisés par les
+enseignants du CNAM dans notre galerie interactive :
 <div class="centre-important">
 <a href="https://carnets.cnam.fr">https://carnets.cnam.fr</a>
 </div>

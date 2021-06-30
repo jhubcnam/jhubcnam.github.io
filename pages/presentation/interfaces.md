@@ -13,7 +13,7 @@ L'environnement Jupyter permet de travailler dans deux principales interfaces :
 - La première interface, appelée [**Lab**](#lab), est un environnement riche permettant de naviguer dans l'arborescence de fichiers, d'ouvrir en parallèle plusieurs fichiers (carnets Jupyter, fichiers CSV, scripts, etc.) et de contrôler finement certaines options de fichiers ou de l'interface (par exemple, via le menu Settings > Advanced Settings Editor).
 - La seconde, appelée [**tree**](#tree) et historiquement plus ancienne, est une interface simplifiée où chaque fichier vit dans son propre onglet du navigateur (rendant certaines opérations comme les copier-coller inopérantes). L'interface **tree** reste utile pour la création de diapositives avec Jupyter.
 
-En plus de ces deux interfaces, le JupyterHub du Cnam offre également la possibilité de travailler dans l'interface [**RStudio**](#rstudio) qui est extrêmemement populaire parmi les développeur-euse-s R. RStudio permet la rédaction de « carnets » selon un autre modèle (R Markdown), qui peut se révéler avantageux dans certains cas. Une autre utilité de RStudio est le développement de Web Apps via la bibliothèque Shiny.
+En plus de ces deux interfaces, le JupyterHub du Cnam offre également la possibilité de travailler dans l'interface [**RStudio**](#rstudio) qui est extrêmemement populaire parmi les développeurs et développeuses R. RStudio permet la rédaction de « carnets » selon un autre modèle (R Markdown), qui peut se révéler avantageux dans certains cas. Une autre utilité de RStudio est le développement de Web Apps via la bibliothèque Shiny.
 
 <a name="lab"></a>
 ## L'interface de travail avancée JupyterLab
@@ -27,7 +27,7 @@ propose une navigation par des onglets propres :
 * Une aide contextuelle permet d'accéder dans un onglet à part à la documentation d'une fonction
 * Un carnet Jupyter peut être accompagné d'une console, donnant un accès direct au noyau correspondant
 
-![image lab]({{ '/assets/images/Jlab_example_org.png' | absolute_url }})
+![image lab]({{ '/assets/images/JLab_example_org.png' | absolute_url }})
 
 * Des opérations comme le copier-coller de cellule sont possibles entre plusieurs fichiers
 * De nombreuses opérations sont rendues disponibles via un clic droit
@@ -35,7 +35,7 @@ propose une navigation par des onglets propres :
 
 Le menu latéral permet d'accéder rapidement aux différentes fonctionnalités:
 
-![image lab]({{ '/assets/images/Jlab_menulat_1.png' | absolute_url }}){: width="10"} **Gestionnaire de Fichier**.
+![image lab]({{ '/assets/images/Jlab_menulat_1.png' | absolute_url }}){: width="24"} **Gestionnaire de Fichier**.
 Le gestionnaire permet de naviguer dans l'arborescence de fichiers et d'ouvrir des fichiers en double-cliquant dessus. On peut créer de nouveaux documents en cliquant sur l'icône `+` et en sélectionnant parmi les propositions le type de document à créer. (Pour un script Python, par exemple, choisir un document texte puis en modifier le nom et l'extension.)
 
 L'icône <svg xmlns="http://www.w3.org/2000/svg" width="16" viewBox="0 0 24 24">

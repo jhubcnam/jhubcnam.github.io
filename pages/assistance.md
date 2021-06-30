@@ -30,8 +30,9 @@ programmation, vous pouvez demander à rejoindre la liste `jhub@cnam.fr` (en
 
 ## Administration des plateformes
 
-Si vous souhaitez installer des packetages supplémentaires, disposer d'un environnement spécifique
-(noyau, interface, composants) à vos enseignements, contactez :
+Si vous souhaitez installer des paquetages supplémentaires, voire disposer d'un
+environnement spécifique (noyau, interface, composants) à vos enseignements,
+contactez :
 
 * [Rafik Abdesselam][rafik]<br/>
 Ingénieur systèmes à la Direction des Systèmes d'Information<br/>

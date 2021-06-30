@@ -32,7 +32,7 @@ Et quelques possibilités de **transformation des données en information** dans
 
 L'ensemble des opérations listées ci-dessus peuvent être réalisées à l'aide de librairies préconçues et disponibles pour tous les langages présents sur le JupyterHub du Cnam. Pour d'autres exemples de notebooks incluant des applications très concrètes sur des jeux de données, voir [ici](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks). 
 
-Voici par exemple en **Python**, quelques packetages-clés, à utiliser pour la science des données : 
+Voici par exemple en **Python**, quelques paquetages-clés, à utiliser pour la science des données : 
 
 - `pandas` : manipulation de données
 - `matplotlib`, `plotly` et `seaborn` : visualisation des données
@@ -42,4 +42,4 @@ Voici par exemple en **Python**, quelques packetages-clés, à utiliser pour la 
 - `scikit learn` : machine learning
 - `tensorflow` : création de réseaux de neurones   
 
-➔ l'utilisation de ces packetages est illustrée à travers les carnets Jupyter donnés en démo ci-dessus.
+➔ l'utilisation de ces paquetages est illustrée à travers les carnets Jupyter donnés en démo ci-dessus.

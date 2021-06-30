@@ -6,7 +6,8 @@ nav_order: 8
 ---
 
 
-Afin de faciliter les cours/TP numériques réalisés au Cnam, une équipe de 6 enseignants-chercheurs (couvrant 7 EPN distinctes) accompagnée d’un ingénieur décide en 2016 de mettre en place un projet visant à héberger un serveur JupyterHub unique (machine virtuelle) au sein de l’infrastructure informatique du Cnam. 
+Afin de faciliter les cours et TP numériques réalisés au Cnam, une équipe de 6 enseignants-chercheurs (couvrant 7 <span class="tooltip">EPN<span class="tooltiptext">Équipes Pédagogiques Nationales, des <em>départements</em> segmentant plus ou moins
+disciplinairement le CNAM</span></span> distinctes) accompagnée d’un ingénieur décide en 2016 de mettre en place un projet visant à héberger un serveur JupyterHub unique (machine virtuelle) au sein de l’infrastructure informatique du Cnam. 
 
 Voici les grandes étapes qui ont jalonné le projet depuis sa création :  
 
@@ -15,6 +16,8 @@ Voici les grandes étapes qui ont jalonné le projet depuis sa création :
 * Jhub2 : Au début de l'année 2019, un nouveau serveur JupyterHub fait son entrée au Cnam : son accès se fait désormais de façon directe via **Moodle**, facilitant ainsi considérablement l'accès et l'authentification des utilisateurs. Un lien direct vers l'interface Jupyter peut maintenant être ajouté dans n'importe quel cours Moodle du Cnam via la création d'un "Outil externe".    
 
 * Jhub3 : A l'issue de l'année universitaire 2020, une version plus avancée et modulable du serveur Jupyter est proposée : le JupyterHub du Cnam met à disposition divers **environnements** façonnés avec les éléments nécessaires aux divers enseignements du Cnam. Ces environnement comprennent donc un ou des noyaux spécifiques (langages de programmation) et les packages nécessaires (cf pages [Moodle](https://jhub.cnam.fr/doc/pages/presentation/moodle/) et [Environnements](https://jhub.cnam.fr/doc/pages/presentation/environnements/) de ce site).
+
+* Le projet se poursuit, de nouvelles possibilités devraient arriver dans l'année 2021-2022.
 
 
 ![équipe jhub cnam]({{ '/assets/images/team.png' | absolute_url }})

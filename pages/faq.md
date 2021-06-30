@@ -9,7 +9,7 @@ nav_order: 6
 
 ## Pour les enseignant·es
 
-- **J'ai besoin d'une librairie/d'un packetage qui n'est pas installé(e) actuellement sur l'environnement JupyterHub que j'utilise, que faire ?**  
+- **J'ai besoin d'une librairie/d'un paquetage qui n'est pas installé(e) actuellement sur l'environnement JupyterHub que j'utilise, que faire ?**  
 
   Tout d'abord, il est possible que cette librairie soit disponible au sein d'un autre environnement de JupyterHub. L'ensemble des environnements disponibles sur le JupyterHub du Cnam sont listés [**ici**](https://jhub.cnam.fr/doc/pages/presentation/environnements/) ou directement consultables et accessibles à partir de Moodle : 
   
@@ -42,7 +42,7 @@ nav_order: 6
 
 - **Comment sauvegarder tous mes travaux présents sur Jupyter (carnets, images, données, ...) en local sur mon ordinateur personnel ? (Typiquement à la fin d'un semestre, afin de récupérer la totalité du matériel de cours présent sur Jupyter)**.  
    
-  Au lieu de télécharger tous les fichiers à la main individuellement, il est possible de faire un téléchargement groupé de tous vos fichiers. Pour cela placez-vous dans `/MonDossier`, créez un nouveau carnet (`New` ➔ `Python3`) et dans la première cellule saisir la commande suivante :
+  Au lieu de télécharger tous les fichiers à la main individuellement, il est possible de faire un téléchargement groupé de tous vos fichiers. Pour cela, placez-vous dans `/MonDossier`, créez un nouveau carnet (`New` ➔ `Python3`) et dans la première cellule saisir la commande suivante :
 
   `!tar czf mon_archive_Jupyter.tar.gz *`
 
